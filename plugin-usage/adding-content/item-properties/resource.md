@@ -56,5 +56,5 @@ If the path doesn't exists create all the folders needed.
 
 ## Transparent textures \(glass and similar\)
 
-{% page-ref page="../../../faq/transparent-textures.md" %}
+{% page-ref page="../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
