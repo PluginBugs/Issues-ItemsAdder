@@ -1,5 +1,5 @@
 ---
-Beschrijving: Deze website helpt jou met het configureren en maken van custom items voor mijn plugin.
+description: Deze website helpt jou met het configureren en maken van custom items voor mijn plugin.
 ---
 
 # Welkom
