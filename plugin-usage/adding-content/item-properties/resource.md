@@ -54,6 +54,30 @@ So if you set `model_path` like in the example and your **namespace** \(is for e
 
 If the path doesn't exists create all the folders needed.
 
+## Important note
+
+{% hint style="warning" %}
+If your custom 3D model .json is using a custom texture .png and not textures already included in Minecraft you have to add your [namespace ](../basic-concepts/namespace.md)to the texture, let me make an example:
+
+Your original texture \(**wrong**\):
+
+```javascript
+"textures": {
+    "texture": "items/my_texture"
+},
+```
+
+The **correct** usage:
+
+```javascript
+"textures": {
+    "texture": "YOUR_NAMESPACE:items/my_texture"
+},
+```
+
+\(`YOUR_NAMESPACE` is the **name** of **your namespace**, obviously\)
+{% endhint %}
+
 ## Transparent textures \(glass and similar\)
 
 {% page-ref page="../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
