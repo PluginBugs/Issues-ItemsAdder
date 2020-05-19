@@ -30,15 +30,19 @@ resource-pack:
 
 Doing this you'll have a fast and easy to use configuration evironment. You can add items and edit the pack on the fly.
 
-When you edit an item texture/model and you edit its configuration you will use command `/iareload` , `/iazip` and then on your client`/iatexture`, doing this you'll see changes applied at realtime.
+When you edit an item texture/model and you edit its configuration you will use command `/iazip` and then on your client`/iatexture`, doing this you'll see changes applied at realtime.
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server, upload your `pack.zip` following the next tutorial down here.
-{% endhint %}
+#### More info here:
+
+{% page-ref page="resourcepack-hosting/resourcepack-self-hosting.md" %}
+
+So after you finished adding items and configuring them you'll be able to upload everything on your online server, upload your `pack.zip` following the next **tutorial down here:**
 
 {% page-ref page="resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% endhint %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.  
+It's a good practice to **not edit** **ItemsAdder** textures/models directly on your online server.  
 Players hate lag on plugins reload, server restarts, having to redownload the pack when they're already player.. keep that in mind.
 {% endhint %}
 
