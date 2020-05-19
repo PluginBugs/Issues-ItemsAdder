@@ -8,6 +8,7 @@
 * Be sure to follow all [tutorial ](../../plugin-usage/resourcepack-hosting/)steps
 * Be sure the port is opened if you use self-host.
 * Be sure you're **NOT** using my `pack_21521367.zip` file as base for your pack.  You **MUST** use the new generated `pack.zip` file. Read [tutorial here](../../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
+* Be sure your file names doesn't use **uppercase characters** \(`ABCDEF`....\) and **no special characer** \(`?-*òòààà`....\) Minecraft doens't like that and it will give problems. You can use these characters: `abcdefg`...
 
 
 
