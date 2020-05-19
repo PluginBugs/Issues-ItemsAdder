@@ -5,8 +5,8 @@ Problem is that some Intel HD Graphics cards have a driver bug that cause game t
 
 {% hint style="warning" %}
 Only way to fix this is to disable [custom font](../../plugin-usage/adding-content/custom-fonts/) functionality of the plugin..  
-Yes I know it's a shame but I can't do much, it's Mojang fault.  
-  
+Yes I know it's a shame but I can't do much, it's Mojang fault.
+
 You can read about that here: [https://bugs.mojang.com/browse/MC-176595](https://bugs.mojang.com/browse/MC-176595)
 {% endhint %}
 

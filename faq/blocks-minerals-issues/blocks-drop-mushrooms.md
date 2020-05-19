@@ -2,17 +2,17 @@
 
 If you have this problem please read here **before asking for support**:
 
-### First reason
+## First reason
 
 If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
 
-### Second reason
+## Second reason
 
 Did you delete the ItemsAdder plugin folder? Don't do it. It contains world data under: `plugins\ItemsAdder\storage\regions_data`
 
 If you delete it you lose every custom ItemsAdder block data in the world.
 
-### Third reason
+## Third reason
 
 Corrupted chunk. This can happen if you:
 
