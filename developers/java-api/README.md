@@ -27,6 +27,9 @@ public static void placeCustomBlock(Location location, ItemStack customBlock, bo
 //Check if a block in the world is a custom block made with ItemsAdder
 public static boolean isCustomBlock(Block block)
 
+//remove custom block from world
+public static void removeCustomBlock(Location location)
+
 //plants custom seed like a normal player would do
 public static void placeCustomCrop(Location location, ItemStack seed)
 
