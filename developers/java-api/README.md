@@ -30,6 +30,9 @@ public static boolean isCustomBlock(Block block)
 //remove custom block from world
 public static void removeCustomBlock(Location location)
 
+//used by worldedit extension
+public static ItemStack getCustomBlockByFaces(Material material, HashMap<BlockFace, Boolean> blockFaces)
+
 //plants custom seed like a normal player would do
 public static void placeCustomCrop(Location location, ItemStack seed)
 
