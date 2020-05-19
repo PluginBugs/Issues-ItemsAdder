@@ -21,5 +21,3 @@ I hate when users just report problems saying this phrase, it has no sense and I
 
 {% page-ref page="../../support/" %}
 
-
-
