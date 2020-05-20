@@ -27,7 +27,7 @@ items:
 
 ### Setting the texture
 
-{% page-ref page="../item-properties/resource.md" %}
+{% page-ref page="../item-properties/resource/" %}
 
 
 
