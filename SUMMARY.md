@@ -93,5 +93,6 @@
     * [RPG Chest Premium](compatibility-with-other-plugins/compatible/rpg-chest-premium.md)
     * [ClueScrolls](compatibility-with-other-plugins/compatible/cluescrolls.md)
     * [Recipe Control](compatibility-with-other-plugins/compatible/recipe-control.md)
+    * [InteractionVisualizer](compatibility-with-other-plugins/compatible/interactionvisualizer.md)
 * [Addons/resources](addons-resources.md)
 
