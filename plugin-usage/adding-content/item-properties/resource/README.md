@@ -58,7 +58,7 @@ If the path doesn't exists create all the folders needed.
 
 {% page-ref page="../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
-### Manually specify custom\_model\_data
+## Manually specify custom\_model\_data
 
 If you want to force the usage of a defined custom\_model\_data \(CustomModelData\) you can:
 
@@ -71,4 +71,21 @@ If you want to force the usage of a defined custom\_model\_data \(CustomModelDat
 ```
 
 You also have to create the model file names "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
+
+You can also tell IA to automatically generate the model based on the texture:
+
+```yaml
+info:
+  namespace: slimefun
+items:
+  carbonado:
+    resource:
+      material: PLAYER_HEAD
+      generate: true
+      model_id: 4000
+      textures:
+      - slimefun/carbonado.png
+```
+
+\`\`
 
