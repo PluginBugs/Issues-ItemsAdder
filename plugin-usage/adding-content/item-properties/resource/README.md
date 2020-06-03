@@ -58,3 +58,17 @@ If the path doesn't exists create all the folders needed.
 
 {% page-ref page="../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
+### Manually specify custom\_model\_data
+
+If you want to force the usage of a defined custom\_model\_data \(CustomModelData\) you can:
+
+```yaml
+    resource:
+      material: CLOCK
+      model_id: 4000
+      generate: false
+      model_path: "item/multimeter"
+```
+
+You also have to create the model file names "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
+
