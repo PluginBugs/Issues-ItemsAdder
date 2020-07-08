@@ -67,6 +67,7 @@
     * [Custom fonts](plugin-usage/adding-content/custom-fonts/README.md)
       * [Thin font \(force unicode\)](plugin-usage/adding-content/custom-fonts/thin-font-force-unicode.md)
     * [Music discs](plugin-usage/adding-content/music-discs.md)
+    * [Translation](plugin-usage/adding-content/translation.md)
   * [Permissions](plugin-usage/permissions.md)
   * [/ia](plugin-usage/ia.md)
   * [WorldGuard flags](plugin-usage/worldguard-flags.md)
