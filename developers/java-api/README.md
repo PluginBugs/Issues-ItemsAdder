@@ -24,6 +24,9 @@ public static ItemStack getCustomItem(String nameInConfig)
 public static void placeCustomBlock(Location location, ItemStack customBlock)
 public static void placeCustomBlock(Location location, ItemStack customBlock, boolean lightweight)
 
+//get custom block loots
+public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
+
 //Check if a block in the world is a custom block made with ItemsAdder
 public static boolean isCustomBlock(Block block)
 
