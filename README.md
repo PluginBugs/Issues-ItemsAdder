@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+Description: Ce site vous aide à configurer et à créer des éléments personnalisés pour mon plugin
 ---
 
-# Welcome
+# Bienvenue
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
