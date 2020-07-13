@@ -1,4 +1,4 @@
-# Translation
+# Traduction
 
 You can translate everything in ItemsAdder, it's really easy.
 
@@ -6,8 +6,7 @@ You can translate everything in ItemsAdder, it's really easy.
 
 ### Translate ItemsAdder default items
 
-If you want to translate IA default items you can, you just have to copy my dictionary and create your own.  
-
+If you want to translate IA default items you can, you just have to copy my dictionary and create your own.
 
 * open folder plugins\ItemsAdder\data\items\_packs\dictionaries\itemsadder\_stuff
 * copy and paste the file en.yml

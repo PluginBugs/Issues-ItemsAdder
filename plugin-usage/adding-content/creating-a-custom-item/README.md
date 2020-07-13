@@ -1,2 +1,2 @@
-# Example items
+# Exemples d'items
 

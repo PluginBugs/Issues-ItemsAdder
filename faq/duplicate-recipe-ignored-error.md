@@ -1,4 +1,4 @@
-# "Duplicate recipe ignored" error
+# Erreur "Duplication de la recette ignorée" /"Duplicate recipe ignored" error
 
 If you get an error similar to this, please update your Paper or Spigot to LATEST version. If it's 1.14.4 version doesn't mean it's updated, you have to download the very latest version of it.
 

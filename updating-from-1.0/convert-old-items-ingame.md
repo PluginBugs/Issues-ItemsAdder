@@ -1,4 +1,4 @@
-# Convert old items/blocks ingame
+# Convertir les anciens objets/blocs dans le jeu
 
 {% hint style="danger" %}
 **It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**

@@ -1,4 +1,4 @@
-# Create transparent textured furnitures
+# Créez des meubles texturés transparents
 
 {% hint style="warning" %}
 If you want to make some transparent/semi transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.  

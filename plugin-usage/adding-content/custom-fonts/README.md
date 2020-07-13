@@ -1,4 +1,4 @@
-# Custom fonts
+# Polices personnalisées
 
 ## Example custom font
 

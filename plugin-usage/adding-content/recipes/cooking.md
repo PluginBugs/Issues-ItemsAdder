@@ -2,7 +2,7 @@
 description: This recipes allows your users to cook/smelt materials
 ---
 
-# Cooking
+# Cuisson
 
 ## Example
 

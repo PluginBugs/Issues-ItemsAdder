@@ -1,4 +1,4 @@
-# First install
+# Première installation
 
 ## Step 1
 

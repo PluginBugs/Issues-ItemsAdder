@@ -1,5 +1,7 @@
 ---
-description: Ce site vous aide à configurer et à créer des éléments personnalisés pour mon plugin
+description: >-
+  Ce site vous aide à configurer et à créer des éléments personnalisés pour mon
+  plugin
 ---
 
 # Bienvenue
@@ -10,4 +12,6 @@ description: Ce site vous aide à configurer et à créer des éléments personn
 * [Website](https://www.matteodev.it/)
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
+
+Wiki french translation by Spygain
 

@@ -1,4 +1,4 @@
-# Creating your namespace
+# Création de votre espace de noms
 
 {% hint style="warning" %}
 If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)

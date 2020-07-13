@@ -1,4 +1,4 @@
-# Java API
+# API Java
 
 ItemsAdder includes an easy to use API for Java developers.  
 To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.

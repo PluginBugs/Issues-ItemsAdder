@@ -1,4 +1,4 @@
-# Expert users
+# Utilisateurs experts
 
 ## Installing the required dependencies
 

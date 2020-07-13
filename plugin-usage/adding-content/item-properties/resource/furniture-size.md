@@ -1,4 +1,4 @@
-# Furniture size
+# Taille des modèles
 
 ## How can I adjust the furniture position when placed?
 
@@ -26,7 +26,7 @@ behaviours:
 {% endtab %}
 
 {% tab title="Small furniture" %}
-```
+```text
 behaviours:
   furniture:
     small_hitbox: true
@@ -38,14 +38,10 @@ behaviours:
 
 {% tabs %}
 {% tab title="Big furniture" %}
-
-
 ![](../../../../.gitbook/assets/immagine%20%288%29.png)
 {% endtab %}
 
 {% tab title="Small furniture" %}
-
-
 ![](../../../../.gitbook/assets/immagine%20%2810%29.png)
 {% endtab %}
 {% endtabs %}

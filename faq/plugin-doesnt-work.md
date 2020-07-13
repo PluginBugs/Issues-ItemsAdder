@@ -1,4 +1,4 @@
-# Plugin doesn't work!
+# Le plugin ne fonctionne pas !
 
 ## **"Plugin doesn't work!!!"**
 

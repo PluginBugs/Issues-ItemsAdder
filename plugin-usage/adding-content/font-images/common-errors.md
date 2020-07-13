@@ -1,4 +1,4 @@
-# Common errors
+# Erreurs courantes
 
 ## I see only a white square
 

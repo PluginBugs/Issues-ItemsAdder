@@ -1,2 +1,2 @@
-# Resourcepack hosting
+# Hébergement du resourcepack
 

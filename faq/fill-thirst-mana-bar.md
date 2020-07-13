@@ -1,4 +1,4 @@
-# Thirst/mana bar
+# Barre de soif et de mana
 
 ## Fill them
 

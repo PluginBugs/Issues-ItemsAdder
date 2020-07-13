@@ -1,4 +1,4 @@
-# Events
+# Événements
 
 ## What are events?
 

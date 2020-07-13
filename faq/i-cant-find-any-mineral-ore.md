@@ -1,4 +1,4 @@
-# I can't find any mineral/ore
+# Je ne trouve aucun minéral/ou bloc de minerais
 
 ## Common causes of this can be:
 

@@ -1,4 +1,4 @@
-# Resourcepack not loading
+# Le resourcepack ne se charge pas
 
 #### Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 

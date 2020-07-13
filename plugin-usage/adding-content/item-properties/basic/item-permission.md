@@ -1,4 +1,4 @@
-# Item Permission
+# Permission d'item
 
 ### Example
 

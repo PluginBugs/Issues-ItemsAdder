@@ -1,4 +1,4 @@
-# Blocks
+# Blocs
 
 ```yaml
 specific_properties:

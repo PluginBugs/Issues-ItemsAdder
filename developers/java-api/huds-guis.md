@@ -17,5 +17,3 @@ manaHud.setFloatValue(2.0f);
 
 {% page-ref page="../../plugin-usage/adding-content/font-images/common-errors.md" %}
 
-
-

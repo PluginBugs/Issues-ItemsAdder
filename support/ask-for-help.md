@@ -1,4 +1,4 @@
-# Ask for help
+# Demander de l'aide
 
 If you still need help and you **did read all my wiki pages and plugin page** please open a support ticket here: 
 

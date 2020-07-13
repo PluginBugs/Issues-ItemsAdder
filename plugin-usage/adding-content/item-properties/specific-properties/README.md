@@ -1,2 +1,2 @@
-# Specific properties
+# Propriétés spécifiques
 

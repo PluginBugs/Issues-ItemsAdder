@@ -1,2 +1,2 @@
-# Item properties
+# Propriétés des items
 

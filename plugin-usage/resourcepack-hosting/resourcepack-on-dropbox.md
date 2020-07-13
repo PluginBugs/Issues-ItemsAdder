@@ -1,4 +1,4 @@
-# Resourcepack on DropBox
+# Héberger le ressourepack sur Dropbox
 
 ## How to upload your resourcepack to DropBox
 

@@ -1,2 +1,2 @@
-# Plugin usage
+# Utilisation du plugins
 

@@ -1,4 +1,4 @@
-# Armor
+# Armure
 
 ```yaml
 items:

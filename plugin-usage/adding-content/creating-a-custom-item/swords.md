@@ -1,4 +1,4 @@
-# Swords
+# Épées
 
 {% hint style="danger" %}
 If you didn't create your namespace please follow the [namespace tutorial](../creating-your-namespace.md).
@@ -22,12 +22,9 @@ items:
       - item/example_item.png
     durability:
       max_custom_durability: 1324
-  
 ```
 
 ### Setting the texture
 
 {% page-ref page="../item-properties/resource/" %}
-
-
 

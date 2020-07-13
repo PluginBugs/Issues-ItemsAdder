@@ -1,4 +1,4 @@
-# Behaviours
+# Comportements
 
 ## What are behaviours?
 

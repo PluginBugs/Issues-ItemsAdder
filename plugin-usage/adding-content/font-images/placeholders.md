@@ -1,8 +1,8 @@
-# Placeholders
+# Espaces réservés/Placeholders
 
 You can use these special placeholders in chat, signs, books and in GUIs names.
 
-### Offset
+## Offset
 
 This is a special placeholder that allows you to move a font image back and forward specifying pixels number.
 
@@ -15,7 +15,7 @@ This is a special placeholder that allows you to move a font image back and forw
 
 As you can see you have to write `:offset_`**`AMOUNT`**`:` \(without spaces\).
 
-### Actual image
+## Actual image
 
 To actually show make your font image show up you just have to write down its name surrounded by `:` character
 

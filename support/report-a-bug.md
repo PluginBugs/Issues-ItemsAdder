@@ -1,4 +1,4 @@
-# Report a bug
+# Signaler un bug
 
 ## To report a bug please click here:
 

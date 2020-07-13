@@ -1,4 +1,4 @@
-# Permissions
+# Autorisations/Permissions
 
 * Users
 

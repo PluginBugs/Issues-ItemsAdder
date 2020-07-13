@@ -1,4 +1,4 @@
-# Namespace
+# Espace de noms
 
 ## Namespace
 

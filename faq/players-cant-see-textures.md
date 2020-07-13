@@ -1,4 +1,4 @@
-# Players can't see textures
+# Les joueurs ne peuvent pas voir les textures
 
 #### _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 

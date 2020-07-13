@@ -1,2 +1,2 @@
-# Updating from 1.0
+# Mise à jour à partir de la version 1.0
 
