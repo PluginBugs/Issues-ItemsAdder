@@ -1,5 +1,5 @@
 ---
-Description: Ce site vous aide à configurer et à créer des éléments personnalisés pour mon plugin
+description: Ce site vous aide à configurer et à créer des éléments personnalisés pour mon plugin
 ---
 
 # Bienvenue
