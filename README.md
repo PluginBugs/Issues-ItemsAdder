@@ -13,5 +13,5 @@ description: >-
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-Wiki french translation by Spygain
+Wiki french translation by [Spygain](https://twitter.com/Spygain)
 
