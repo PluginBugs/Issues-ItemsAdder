@@ -74,6 +74,9 @@
   * [HUDs, GUIs...](developers/java-api/huds-guis.md)
 * [Skript API](developers/skript-api/README.md)
   * [Expert users](developers/skript-api/expert-users-1.md)
+
+---
+
 * [Compatibility with other plugins](compatibility-with-other-plugins/README.md)
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
