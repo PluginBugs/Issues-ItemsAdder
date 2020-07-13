@@ -60,6 +60,7 @@
     * [World populators](plugin-usage/adding-content/world-populators.md)
     * [Font Images](plugin-usage/adding-content/font-images/README.md)
       * [Common errors](plugin-usage/adding-content/font-images/common-errors.md)
+      * [Placeholders](plugin-usage/adding-content/font-images/placeholders.md)
     * [Sounds](plugin-usage/adding-content/sounds.md)
     * [HUDs](plugin-usage/adding-content/huds.md)
     * [GUIs](plugin-usage/adding-content/guis.md)
