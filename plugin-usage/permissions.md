@@ -42,6 +42,10 @@
     * `ia.admin.iaget`
   * /iagive
     * `ia.admin.iagive`
+  * /iadrop
+    * `ia.admin.iadrop`
+  * /iaremove
+    * `ia.admin.iaremove`
   * /iatag
     * `ia.admin.iatag`
   * /iareload

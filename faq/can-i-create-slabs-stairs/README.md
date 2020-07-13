@@ -23,5 +23,9 @@ You can make them colored but you cannot change the texture.
 
 {% page-ref page="../../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}
 
+### Elytra
 
+{% hint style="warning" %}
+Minecraft doesn't allow you in any way to add custom textures / custom 3D models to elytras.
+{% endhint %}
 

@@ -100,7 +100,7 @@ To start the conversion:
 
 * start the server
 * wait it to finish loading all
-* use command `/iaconvert`
+* use command `/itemsadderconverter:iaconvert`
 * WAIT IT TO FINISH
 * Check if it throws any error
 * Stop server
