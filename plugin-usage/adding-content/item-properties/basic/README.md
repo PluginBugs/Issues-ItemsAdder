@@ -45,25 +45,24 @@ Lore lines of the item
 
 ```yaml
 attribute_modifiers:
-  list:
-    mainhand:
-      attackDamage: 19
-      attackSpeed: 1.1
-      maxHealth: 1.1
-      movementSpeed: -1
-      armor: 1.1
-      armorToughness: 1.1
-      attackKnockback: 1.1
-      luck: 1.1
-    offhand:
-      attackDamage: 19
-      attackSpeed: 1.1
-      maxHealth: 1.1
-      movementSpeed: 1.1
-      armor: 1.1
-      armorToughness: 1.1
-      attackKnockback: 1.1
-      luck: 1.1
+  mainhand:
+    attackDamage: 19
+    attackSpeed: 1.1
+    maxHealth: 1.1
+    movementSpeed: -1
+    armor: 1.1
+    armorToughness: 1.1
+    attackKnockback: 1.1
+    luck: 1.1
+  offhand:
+    attackDamage: 19
+    attackSpeed: 1.1
+    maxHealth: 1.1
+    movementSpeed: 1.1
+    armor: 1.1
+    armorToughness: 1.1
+    attackKnockback: 1.1
+    luck: 1.1
 ```
 
 These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
