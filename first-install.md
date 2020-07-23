@@ -1,5 +1,7 @@
 # First install
 
+{% embed url="https://youtu.be/GKGnlF4zZVg" %}
+
 ## Step 1
 
 You should do this first configuration on your test server on your PC to avoid mistakes and too many restarts.. players don't like when server is down ;\) You can upload files to your real server after you finished here.
