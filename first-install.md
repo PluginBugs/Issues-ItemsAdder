@@ -1,5 +1,7 @@
 # First install
 
+## Video
+
 {% embed url="https://youtu.be/GKGnlF4zZVg" %}
 
 ## Step 1
