@@ -100,6 +100,7 @@
     * [ClueScrolls](compatibility-with-other-plugins/compatible/cluescrolls.md)
     * [Recipe Control](compatibility-with-other-plugins/compatible/recipe-control.md)
     * [InteractionVisualizer](compatibility-with-other-plugins/compatible/interactionvisualizer.md)
+    * [AdditionsPlus](compatibility-with-other-plugins/compatible/additionsplus.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
 * [Addons/resources](addons-resources.md)
 
