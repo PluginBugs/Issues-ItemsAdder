@@ -91,7 +91,7 @@
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
     * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney.md)
-    * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney-2.md)
+    * [RPGBank](compatibility-with-other-plugins/compatible/rpgmoney-2.md)
     * [EpicBackpacks](compatibility-with-other-plugins/compatible/epicbackpacks.md)
     * [Wailat](compatibility-with-other-plugins/compatible/wailat.md)
     * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney-1.md)

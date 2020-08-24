@@ -1,4 +1,4 @@
-# RPGMoney
+# RPGBank
 
 [Download here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
@@ -26,4 +26,6 @@ account-title: :offset_-16::blank_menu::offset_-176:&0{player}
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
