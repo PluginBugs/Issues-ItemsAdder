@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [❤️Donation - Support my work](donation-support-my-work.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 * [First install](first-install.md)
 * [F.A.Q.](faq/README.md)
@@ -104,5 +105,4 @@
     * [AdditionsPlus](compatibility-with-other-plugins/compatible/additionsplus.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
 * [Addons/resources](addons-resources.md)
-* [Donation - Support my work](donation-support-my-work.md)
 
