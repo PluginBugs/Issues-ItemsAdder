@@ -57,7 +57,7 @@
       * [Cooking](plugin-usage/adding-content/recipes/cooking.md)
       * [Anvil repair](plugin-usage/adding-content/recipes/anvil-repair.md)
     * [Loots](plugin-usage/adding-content/loots.md)
-    * [World populators](plugin-usage/adding-content/world-populators.md)
+    * [Worlds populators](plugin-usage/adding-content/worlds-populators.md)
     * [Font Images](plugin-usage/adding-content/font-images/README.md)
       * [Common errors](plugin-usage/adding-content/font-images/common-errors.md)
       * [Placeholders](plugin-usage/adding-content/font-images/placeholders.md)
