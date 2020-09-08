@@ -2,7 +2,7 @@
 description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# Welcome
+# 👋🏻Welcome
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)

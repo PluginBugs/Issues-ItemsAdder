@@ -1,4 +1,4 @@
-# F.A.Q.
+# ❓F.A.Q.
 
 _**What type of items/weapons/bows exists? Can I create item X, weapon Y... can I add this attribute, can I, can I, can I??? Has the plugin this feature? Why I have this problem and that problem?**_
 

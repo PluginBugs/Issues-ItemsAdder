@@ -1,4 +1,8 @@
-# Some users crash
+# ☠️Some users crash \(old\)
+
+{% hint style="success" %}
+This problem was fixed long time ago, if you still have this problem probably it's a bug introduced again by Mojang
+{% endhint %}
 
 If some of your users crash it's because of a Minecraft bug which is really deep inside game logic.  
 Problem is that some Intel HD Graphics cards have a driver bug that cause game to crash if custom fonts are included in the resourcepack.

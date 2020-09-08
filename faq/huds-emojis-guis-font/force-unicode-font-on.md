@@ -1,4 +1,4 @@
-# Force Unicode Font: ON
+# 🈁Force Unicode Font: ON
 
 ## Read here:
 
