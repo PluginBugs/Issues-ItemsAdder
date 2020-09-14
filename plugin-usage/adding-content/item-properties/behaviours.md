@@ -56,6 +56,7 @@ furniture:
   gravity: true
   fixed_rotation: false
   light_level: 7  
+  solid: false
 
 
 # If you add this behaviour and "furniture" behaviour you will be able to sit
