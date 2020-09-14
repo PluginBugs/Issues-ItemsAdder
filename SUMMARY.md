@@ -105,6 +105,7 @@
     * [InteractionVisualizer](compatibility-with-other-plugins/compatible/interactionvisualizer.md)
     * [AdditionsPlus](compatibility-with-other-plugins/compatible/additionsplus.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
+    * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)
 * [➕Addons/resources](addons-resources.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
