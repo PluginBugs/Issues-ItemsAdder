@@ -48,6 +48,7 @@
       * [Resource](plugin-usage/adding-content/item-properties/resource/README.md)
         * [Creating 3D models](plugin-usage/adding-content/item-properties/resource/creating-3d-models.md)
         * [Furniture size](plugin-usage/adding-content/item-properties/resource/furniture-size.md)
+        * [Furniture collisions](plugin-usage/adding-content/item-properties/resource/furniture-collisions.md)
       * [Specific properties](plugin-usage/adding-content/item-properties/specific-properties/README.md)
         * [Blocks](plugin-usage/adding-content/item-properties/specific-properties/blocks.md)
       * [Events](plugin-usage/adding-content/item-properties/events/README.md)
