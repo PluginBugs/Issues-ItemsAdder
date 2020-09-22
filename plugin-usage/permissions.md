@@ -60,6 +60,8 @@
     * `ia.admin.iaplayerstat.write`
   * /iaplayersta read \(read a player custom stat\)
     * `ia.admin.iaplayerstat.read`
+  * /iainfo \(get info about the plugin\)
+    * `ia.admin.iainfo`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
