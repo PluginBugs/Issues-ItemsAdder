@@ -66,6 +66,7 @@
     * [Sounds](plugin-usage/adding-content/sounds/README.md)
       * [Convert sound to .ogg](plugin-usage/adding-content/sounds/convert-sound-to-.ogg.md)
     * [HUDs](plugin-usage/adding-content/huds.md)
+    * [Mobs](plugin-usage/adding-content/mobs.md)
     * [GUIs](plugin-usage/adding-content/guis.md)
     * [Emojis](plugin-usage/adding-content/emojis.md)
     * [Custom fonts](plugin-usage/adding-content/custom-fonts/README.md)

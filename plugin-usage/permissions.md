@@ -62,6 +62,10 @@
     * `ia.admin.iaplayerstat.read`
   * /iainfo \(get info about the plugin\)
     * `ia.admin.iainfo`
+  * /iakill &lt;mob\|all&gt; \(kill custom mobs\)
+    * `ia.admin.iakill`
+  * /iasummon &lt;mob&gt; \[amount\]
+    * `ia.admin.iasummon`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
