@@ -57,6 +57,7 @@ furniture:
   fixed_rotation: false
   light_level: 7  
   solid: false
+  opposite_direction: false #makes the model rotate 180 when placed
 
 
 # If you add this behaviour and "furniture" behaviour you will be able to sit
