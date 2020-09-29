@@ -1,7 +1,13 @@
 # /ia
 
 ia\_gui.yml contains settings about the  `/ia` command GUI.  
-It also contains the "all" category which shows every ItemsAdder item.  
+It also contains the "all" category which shows every ItemsAdder item.
+
+{% hint style="info" %}
+Default categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+{% endhint %}
+
+  
   
 If you want to create your own category you have to add it to your own .yml file in your namespace.  
 This is an example:
