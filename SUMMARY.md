@@ -17,6 +17,7 @@
   * [💎Blocks/minerals issues](faq/blocks-minerals-issues/README.md)
     * [I can't find any mineral/ore](faq/blocks-minerals-issues/i-cant-find-any-mineral-ore.md)
     * [Blocks drop mushrooms](faq/blocks-minerals-issues/blocks-drop-mushrooms.md)
+  * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [⛔️Errors](faq/errors/README.md)
