@@ -4,5 +4,5 @@ If you set **Force Unicode** to **ON** because you don't like Minecraft default 
 To fix this you have to follow this tutorial.  
 
 
-{% page-ref page="../../plugin-usage/adding-content/custom-fonts/thin-font-force-unicode.md" %}
+{% page-ref page="../../plugin-usage/adding-content/fonts/method-1/thin-font-force-unicode.md" %}
 
