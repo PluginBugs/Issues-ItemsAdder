@@ -22,6 +22,7 @@ loots:
           chance: 100
     nether_quartz_ore:
       type: NETHER_QUARTZ_ORE
+      drop_only_first: true
       items:
         crystal:
           item: itemsadder:crystal
@@ -41,6 +42,12 @@ First one is called **ruby\_ore** \(you can call them as you prefer\), this will
 
 The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.  
 These **drops** are decided by **ItemsAdder** based on **chance** you set. 
+
+{% hint style="info" %}
+Special property: **drop\_only\_first**  
+This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.   
+**WARNING**: this would make your items **harder** to be **dropped**.
+{% endhint %}
 
 ### Other types of loots
 
