@@ -64,6 +64,7 @@ furniture:
 # on the furniture at the defined height.
 furniture_sit:
   sit_height: 0.9
+  opposite_direction: true #default is true
   
 
 # Allows you to use this item as a gun. You can decide which projectile must
