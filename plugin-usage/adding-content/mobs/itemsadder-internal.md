@@ -27,6 +27,7 @@ items:
         ai: HUSK
         hit_color: ff7e7e
         max_health: 40
+        y_offset: 0
         lock_head_rotation:
           y: 0
         animation:

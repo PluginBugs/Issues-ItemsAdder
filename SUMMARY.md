@@ -61,6 +61,8 @@
       * [Anvil repair](plugin-usage/adding-content/recipes/anvil-repair.md)
     * [Loots](plugin-usage/adding-content/loots.md)
     * [Worlds populators](plugin-usage/adding-content/worlds-populators.md)
+    * [Trees populators](plugin-usage/adding-content/trees-populators/README.md)
+      * [Leaves and wood](plugin-usage/adding-content/trees-populators/laveas-and-wood.md)
     * [Font Images](plugin-usage/adding-content/font-images/README.md)
       * [Common errors](plugin-usage/adding-content/font-images/common-errors.md)
       * [Placeholders](plugin-usage/adding-content/font-images/placeholders.md)

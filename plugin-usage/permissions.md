@@ -66,6 +66,8 @@
     * `ia.admin.iakill`
   * /iasummon &lt;mob&gt; \[amount\]
     * `ia.admin.iasummon`
+  * /iaspawntree &lt;tree&gt;
+    * `ia.admin.iaspawntree`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
