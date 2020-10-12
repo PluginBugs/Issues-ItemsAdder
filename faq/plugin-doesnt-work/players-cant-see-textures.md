@@ -8,3 +8,7 @@ There are three ways to fix this issue:
 * If you still have problems delete the server from your servers list, add it again and then enable resource packs.
 * If you still have problems leave the server, go to **%appdata%/.minecraft/server-resource-packs** and **delete everything**. Then join the server again.
 
+{% hint style="danger" %}
+Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+{% endhint %}
+

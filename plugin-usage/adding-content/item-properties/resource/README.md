@@ -4,6 +4,10 @@ description: Properties that allows customization of item graphics
 
 # Resource
 
+{% hint style="danger" %}
+Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+{% endhint %}
+
 ## Automatic generation
 
 In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.  

@@ -1,5 +1,9 @@
 # Resourcepack self hosting
 
+{% hint style="danger" %}
+Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+{% endhint %}
+
 With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
 No need to pay for a website host and **no need to upload the pack everytime you make a change!**
 
