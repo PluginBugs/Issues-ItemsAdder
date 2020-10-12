@@ -17,7 +17,13 @@ Sometimes trees will spawn with vanilla leaves, this is a known issue and I have
 ### Big trees lag
 
 Big trees COULD cause some lag on generation, please use only small tree types.
+
+### Other problems
+
+{% page-ref page="../../../faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md" %}
 {% endhint %}
+
+
 
 
 
