@@ -7,8 +7,8 @@ Make sure you're not using UPPERCASE or special characters in items names, names
 ## How to upload your resourcepack to DropBox
 
 {% hint style="danger" %}
-**DO NOT USE** MY **pack\_21521367.zip** EXAMPLE AS BASE!!!!  
-YOU HAVE TO USE THE **pack.zip** FILE WHICH IS GENERATED AFTER **/iazip** COMMAND.  
+**DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
+YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED AFTER **/iazip** COMMAND.  
 You can find it here: `plugins/ItemsAdder/data/resource_pack/`
 {% endhint %}
 
