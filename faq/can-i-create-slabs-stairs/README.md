@@ -3,7 +3,8 @@
 ### Placeable
 
 {% hint style="warning" %}
- You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this bug: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) You'll be able to create custom shaped blocks when Mojang will fix this bug \(adding a special tag that can be turned on or off, now it's always on. **"Opaque"**\).
+You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this limitation: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254)   
+You'll be able to create custom shaped blocks when Mojang will add this feature: a special tag that can be turned on or off, now it's always on. **"Opaque"**.
 
 Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
 {% endhint %}
