@@ -68,6 +68,8 @@
     * `ia.admin.iasummon`
   * /iaspawntree &lt;tree&gt;
     * `ia.admin.iaspawntree`
+  * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
+    * `ia.admin.iatotemanimation`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
