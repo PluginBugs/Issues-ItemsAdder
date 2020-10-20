@@ -35,3 +35,7 @@ categories:
 Remember to give your users permission for each category if you want them to see the categories.  
 For example a permission is: **ia.menu.armors**
 
+{% hint style="success" %}
+**Categories** with the **same name** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+{% endhint %}
+
