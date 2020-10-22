@@ -38,7 +38,7 @@ If the path doesn't exists create all the folders needed.
 You can avoid setting `.png` in the `textures` attribute, IA will recognize the file automatically
 {% endhint %}
 
-## Use your own custom model
+## Use your own 3D custom model \(.json file\)
 
 If you have a custom modelled sword or item you can tell IA not to generate the model automatically.  
 This is an example:
@@ -57,6 +57,35 @@ Model you set in the `model_path`attribute must be placed in the right folder.
 So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
 
 If the path doesn't exists create all the folders needed.
+
+{% hint style="warning" %}
+### My textures are not working!
+
+If your custom model textures are not showing you have to open your model file and fix the textures path.  
+For example if you had this:
+
+```yaml
+  {
+  "textures": {
+    "4": "item/alchemy_candles/white_candle",
+    "6": "item/alchemy_candles/candle_top",
+    "7": "item/alchemy_candles/red_candle",
+    "8": "item/alchemy_candles/fire"
+  },
+```
+
+You have to change it to this \(`your_namespace` is your [namespace ](../../basic-concepts/namespace.md)folder\):
+
+```yaml
+{
+  "textures": {
+    "4": "your_namespace:item/alchemy_candles/white_candle",
+    "6": "your_namespace:item/alchemy_candles/candle_top",
+    "7": "your_namespace:item/alchemy_candles/red_candle",
+    "8": "your_namespace:item/alchemy_candles/fire"
+  },
+```
+{% endhint %}
 
 ## Transparent textures \(glass and similar\)
 
