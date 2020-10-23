@@ -31,6 +31,7 @@ Actions are what will happen when an event is triggered.
 * cancel
 * target\_potion\_effect
 * target\_remove\_potion\_effect
+* play\_totem\_animation
 
 {% hint style="info" %}
 You can set the same action multiple times. You just have to add `_anything` at the end.  
@@ -189,6 +190,8 @@ target_potion_effect:
 # Removes potion effect to target entity (attack, interact...)
 target_remove_potion_effect:
   type: GLOWING
+  
+play_totem_animation: animatedtitles:bruh
 ```
 
 ### 
