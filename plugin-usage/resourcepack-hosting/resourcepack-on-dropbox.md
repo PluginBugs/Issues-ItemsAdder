@@ -1,16 +1,16 @@
 # Resourcepack on DropBox
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+**Make sure you're not** using **UPPERCASE** or **special characters** in **items** names, **namespaces**, **texture files** \(**png**\) and **model files** \(**json**\)
 {% endhint %}
-
-## How to upload your resourcepack to DropBox
 
 {% hint style="danger" %}
 **DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
 YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED AFTER **/iazip** COMMAND.  
 You can find it here: `plugins/ItemsAdder/data/resource_pack/`
 {% endhint %}
+
+## How to upload your resourcepack to DropBox
 
 One of the most famous is DropBox. It allows you to publish your files for free and it's really easy and fast.  
 You just have to:
@@ -51,5 +51,10 @@ resource-pack:
 
 {% hint style="danger" %}
 Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+{% endhint %}
+
+{% hint style="warning" %}
+**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
+If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
 {% endhint %}
 
