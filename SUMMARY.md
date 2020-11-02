@@ -19,6 +19,7 @@
     * [Blocks drop mushrooms](faq/blocks-minerals-issues/blocks-drop-mushrooms.md)
     * [Leaves and transparent blocks problems](faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md)
   * [💧Liquids bugs](faq/liquids-bugs.md)
+  * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [⛔️Errors](faq/errors/README.md)
