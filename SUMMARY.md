@@ -118,6 +118,7 @@
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
     * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)
     * [RPGInventory](compatibility-with-other-plugins/compatible/rpginventory.md)
+    * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
 * [➕Addons/resources](addons-resources.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
