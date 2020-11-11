@@ -91,6 +91,7 @@
 * [📒Support](support/README.md)
   * [🐞Report a bug](support/report-a-bug.md)
   * [📕Ask for help](support/ask-for-help.md)
+* [📹Video tutorials by users](video-tutorials-by-users.md)
 
 ## Developers
 
