@@ -43,7 +43,7 @@
       * [items\_packs and resource\_pack](plugin-usage/adding-content/basic-concepts/items_packs-and-resource_pack.md)
     * [Creating your namespace](plugin-usage/adding-content/creating-your-namespace.md)
     * [Example items](plugin-usage/adding-content/creating-a-custom-item/README.md)
-      * [Swords](plugin-usage/adding-content/creating-a-custom-item/swords.md)
+      * [Simple texture sword](plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword.md)
       * [Armor](plugin-usage/adding-content/creating-a-custom-item/armor.md)
     * [Item properties](plugin-usage/adding-content/item-properties/README.md)
       * [Basic](plugin-usage/adding-content/item-properties/basic/README.md)
