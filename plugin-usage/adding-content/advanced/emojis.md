@@ -2,7 +2,7 @@
 
 ### Introduction
 
-For example I want to create an emoji pack named "myemojis", so my [namespace ](basic-concepts/namespace.md)would be `myemojis`
+For example I want to create an emoji pack named "myemojis", so my [namespace ](../beginners/basic-concepts/namespace.md)would be `myemojis`
 
 ### Creating the textures folder
 

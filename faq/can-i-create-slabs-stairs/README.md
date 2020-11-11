@@ -22,7 +22,7 @@ Minecraft doesn't allow you in any way to add custom textures / custom 3D models
 You can make them colored but you cannot change the texture.
 {% endhint %}
 
-{% page-ref page="../../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}
+{% page-ref page="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md" %}
 
 ### Elytra
 

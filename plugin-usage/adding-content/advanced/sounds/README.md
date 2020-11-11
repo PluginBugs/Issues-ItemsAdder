@@ -5,7 +5,7 @@
 {% page-ref page="convert-sound-to-.ogg.md" %}
 
 * open plugins\ItemsAdder\data\resource\_pack\assets folder
-* open your [namespace](../creating-your-namespace.md) folder
+* open your [namespace](../../beginners/creating-your-namespace.md) folder
 * create a new folder called sounds
 * put your .ogg file in there \(you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...\)
 
@@ -15,7 +15,7 @@ So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\musi
 ### Step 2
 
 * open plugins\ItemsAdder\data\resource\_pack\assets folder
-* open your [namespace](../creating-your-namespace.md) folder
+* open your [namespace](../../beginners/creating-your-namespace.md) folder
 * create a new file named `sounds.json` \(or open it if you already created\)
 * this file is a json file, you MUST write it corretly or it won't work. If you need info about Json files please search online.
 

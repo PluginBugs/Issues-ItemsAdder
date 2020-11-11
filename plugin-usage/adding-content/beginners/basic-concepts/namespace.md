@@ -9,7 +9,7 @@ A **namespace** is like a **group** of elements you the plugin can easly underst
 
 All magic items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](../../../.gitbook/assets/image%20%2810%29.png)
+![](../../../../.gitbook/assets/image%20%2810%29.png)
 
 ## How can I define my own namespace?
 

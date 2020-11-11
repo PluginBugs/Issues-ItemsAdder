@@ -12,7 +12,7 @@ If you didn't create your namespace please follow the [namespace tutorial](../cr
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
 I **advice** you to use **self-host** which is **easier** and **faster**, but you can also use Dropbox and similar
 
-{% page-ref page="../../resourcepack-hosting/" %}
+{% page-ref page="../../../resourcepack-hosting/" %}
 {% endhint %}
 
 ## My first sword
@@ -25,7 +25,7 @@ This is an example sword \(remember to change `myitems` [namespace ](../basic-co
 
 For example I created a **file** which will contain all my **custom swords**:
 
-![](../../../.gitbook/assets/immagine%20%2822%29.png)
+![](../../../../.gitbook/assets/immagine%20%2822%29.png)
 
 In this file \(`myswords.yml`\) I start creating a simple sword called `mysword`
 
@@ -49,7 +49,7 @@ Now the fun part, let's set the sword texture.
 To do that you have to put your sword `.png` texture file inside the correct folder.  
 In this case your **namespace** is `myitems` so you have to put it here:
 
-![](../../../.gitbook/assets/immagine%20%2819%29.png)
+![](../../../../.gitbook/assets/immagine%20%2819%29.png)
 
 ### Applying the texture file to your item
 
@@ -86,16 +86,16 @@ To do that you have to:
 
 ### Now get your item
 
-![](../../../.gitbook/assets/immagine%20%2818%29.png)
+![](../../../../.gitbook/assets/immagine%20%2818%29.png)
 
-![](../../../.gitbook/assets/immagine%20%2816%29.png)
+![](../../../../.gitbook/assets/immagine%20%2816%29.png)
 
 ## If you're using external-host \(Dropbox\) read here:
 
 Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
 1. Get it from this folder:
 
-![](../../../.gitbook/assets/immagine%20%2817%29.png)
+![](../../../../.gitbook/assets/immagine%20%2817%29.png)
 
 2. Upload it to your hosting \(Dropbox\)  
 3. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
@@ -112,7 +112,7 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 
 If you have more questions read the full **external-host** tutorial here:
 
-{% page-ref page="../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% page-ref page="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 
 

@@ -20,7 +20,7 @@ Big trees COULD cause some lag on generation, please use only small tree types.
 
 ### Other problems
 
-{% page-ref page="../../../faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md" %}
+{% page-ref page="../../../../faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md" %}
 {% endhint %}
 
 

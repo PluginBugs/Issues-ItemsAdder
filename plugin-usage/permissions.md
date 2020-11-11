@@ -10,10 +10,10 @@
     * `ia.user.iatexture`
   * crafting
     * `ia.user.craft.PERMISSION` \(or to give all crafting permissions just use ia.user.craft.\*\)
-    * for more info about item permissions please[ read this](adding-content/item-properties/basic/item-permission.md)
+    * for more info about item permissions please[ read this](adding-content/advanced/item-properties/basic/item-permission.md)
   * see item in /ia menu
     * `ia.user.ia.PERMISSION` \(or to give all /ia permissions just use ia.user.ia.\*\)
-    * for more info about item permissions please[ read this](adding-content/item-properties/basic/item-permission.md)
+    * for more info about item permissions please[ read this](adding-content/advanced/item-properties/basic/item-permission.md)
     * `ia.user.iasearchgui` for the search GUI in /ia menu
     * You can also set a permission per category, please check [/ia GUI ](ia.md)page
   * emoji \(font images\)

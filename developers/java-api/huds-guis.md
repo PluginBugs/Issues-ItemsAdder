@@ -15,7 +15,7 @@ manaHud.setFloatValue(2.0f);
 
 ## FAQ
 
-{% page-ref page="../../plugin-usage/adding-content/font-images/common-errors.md" %}
+{% page-ref page="../../plugin-usage/adding-content/advanced/font-images/common-errors.md" %}
 
 ### Get Emoji or GUI character
 

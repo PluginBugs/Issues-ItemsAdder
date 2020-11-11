@@ -10,11 +10,11 @@ In order to keep everything organized you have to create your own namespace. Fir
 
 So this example **namespace** will be `myitems` so create a folder names like the namespace.
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 Open the myitems folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
 Open the new **.yml** file and paste this:
 

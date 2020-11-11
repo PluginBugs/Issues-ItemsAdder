@@ -74,7 +74,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this \(`your_namespace` is your [namespace ](../../basic-concepts/namespace.md)folder\):
+You have to change it to this \(`your_namespace` is your [namespace ](../../../beginners/basic-concepts/namespace.md)folder\):
 
 ```yaml
 {
@@ -89,7 +89,7 @@ You have to change it to this \(`your_namespace` is your [namespace ](../../basi
 
 ## Transparent textures \(glass and similar\)
 
-{% page-ref page="../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
+{% page-ref page="../../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
 ## Manually specify custom\_model\_data
 

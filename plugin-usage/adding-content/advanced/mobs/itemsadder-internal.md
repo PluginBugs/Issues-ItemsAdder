@@ -2,10 +2,10 @@
 
 ## Creating your fist mob
 
-You have to create a .yml file in your [namespace ](../basic-concepts/namespace.md)folder \(check [other tutorials ](../creating-your-namespace.md)for more info\).
+You have to create a .yml file in your [namespace ](../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../beginners/creating-your-namespace.md)for more info\).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../files-editor.md) to edit ItemsAdder files. It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
 {% endhint %}
 
 This is an example for a custom mob names Soul.  
@@ -133,7 +133,7 @@ items:
       mob_animation: true
 ```
 
-![](../../../.gitbook/assets/image%20%2816%29.png)
+![](../../../../.gitbook/assets/image%20%2816%29.png)
 
 ## Spawn the mob naturally
 

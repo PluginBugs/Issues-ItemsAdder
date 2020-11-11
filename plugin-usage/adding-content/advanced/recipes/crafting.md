@@ -66,7 +66,7 @@ In this example I created two `crafting_table` recipes called `deadmau5_hat` and
 For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of  the crafting \(and a potato\) and decrements its durability when player crafts one peeled potato without making it disappear.  
 
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%281%29.png)
 
 As you can see you can also play a sound using `play_sound`
 
