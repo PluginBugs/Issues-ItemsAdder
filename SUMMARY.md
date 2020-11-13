@@ -22,6 +22,7 @@
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
+  * [Removing default stuff](faq/removing-default-stuff.md)
   * [⛔️Errors](faq/errors/README.md)
     * [NoSuchMethodError](faq/errors/nosuchmethoderror.md)
     * [Protocol error](faq/errors/protocol-error.md)
@@ -122,6 +123,7 @@
     * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)
     * [RPGInventory](compatibility-with-other-plugins/compatible/rpginventory.md)
     * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
+    * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
 * [➕Addons/resources](addons-resources.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 

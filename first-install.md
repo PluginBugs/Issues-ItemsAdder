@@ -34,3 +34,13 @@ If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder
 Remember to use the command `/iazip` each time you want the plugin to update the file `pack.zip`
 {% endhint %}
 
+### Optional step
+
+{% hint style="info" %}
+If you only want to make your own items, blocks and other things it's easy!
+
+{% page-ref page="faq/removing-default-stuff.md" %}
+{% endhint %}
+
+
+
