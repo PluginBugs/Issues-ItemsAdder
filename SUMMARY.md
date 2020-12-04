@@ -72,6 +72,7 @@
       * [Worlds populators](plugin-usage/adding-content/advanced/worlds-populators.md)
       * [Trees populators](plugin-usage/adding-content/advanced/trees-populators/README.md)
         * [Leaves and wood](plugin-usage/adding-content/advanced/trees-populators/laveas-and-wood.md)
+        * [Saplings](plugin-usage/adding-content/advanced/trees-populators/saplings.md)
       * [Font Images](plugin-usage/adding-content/advanced/font-images/README.md)
         * [Common errors](plugin-usage/adding-content/advanced/font-images/common-errors.md)
         * [Placeholders](plugin-usage/adding-content/advanced/font-images/placeholders.md)
