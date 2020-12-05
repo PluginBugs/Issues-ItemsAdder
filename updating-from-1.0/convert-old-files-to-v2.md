@@ -83,6 +83,17 @@ ItemsAdder converter will skip automatically my custom items, so it will create 
 * Open file `plugins/ItemsAdderConverter/config.yml`
 * Edit `namespace` to a custom name. You can chose your server name or whatever you want. For example some of my items have **namespace** "`itemsadder`" so you'll be able to use command like `/iaget itemsadder:ruby` \(but as you can notice I created more namespaces in the new plugin, in order to separate functionalities\)
 
+## Step 6 - conversion
+
+To start the conversion:
+
+* start the server
+* wait it to finish loading all
+* use command `/itemsadderconverter:iaconvert`
+* **WAIT** IT TO **FINISH**
+* Check if it throws any error
+* **Stop** server **only** when it **finished converting**.
+
 ## Installing ItemsAdder v2
 
 {% hint style="danger" %}
@@ -95,20 +106,9 @@ ItemsAdder converter will skip automatically my custom items, so it will create 
 * **Stop** the server
 * If you get any error please read it and check if you did anything wrong \(missing dependency, wrong Spigot version....\) and retry this step.
 * \(IGNORE if you get error about the resourcepack URL, it's normal as you will configure it later\)
-{% endhint %}
-
-## Step 6 - conversion
-
-To start the conversion:
-
-* start the server
-* wait it to finish loading all
-* use command `/itemsadderconverter:iaconvert`
-* WAIT IT TO FINISH
-* Check if it throws any error
-* Stop server
 * Open folder **ItemsAdder\_converted** which is just created
 * copy the two folders `items_packs` and `resource_pack`into new `ItemsAdder` folder \(replace any file if asked\)
+{% endhint %}
 
 ## Last tasks
 
