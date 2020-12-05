@@ -103,11 +103,11 @@ To start the conversion:
 * **Download** ItemsAdder 2.0 and put it in your plugins folder
 * **Start** server
 * Wait ItemsAdder 2.0 to finish creating its files
-* **Stop** the server
 * If you get any error please read it and check if you did anything wrong \(missing dependency, wrong Spigot version....\) and retry this step.
 * \(IGNORE if you get error about the resourcepack URL, it's normal as you will configure it later\)
 * Open folder **ItemsAdder\_converted** which is just created
 * copy the two folders `items_packs` and `resource_pack`into new `ItemsAdder` folder \(replace any file if asked\)
+* **Restart** the server
 {% endhint %}
 
 ## Last tasks
