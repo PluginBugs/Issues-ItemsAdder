@@ -47,8 +47,9 @@ Take my values as example.
 The only thing that you can increase safely as you wish is the **chance**.
 {% endhint %}
 
-**iterations**: number of times each ore vein is spawned  
-**amount**: number of 
+**iterations**: number of veins to be spawned to make a bigger ore vein  
+**amount**: number of blocks in each ore vein \(or the **vein size**\)  
+**chance**: chance of that generation to happen in a chunk, you should set it to 100 to normal ores and lower it down for more rare ores.
 
 ### Biomes
 
