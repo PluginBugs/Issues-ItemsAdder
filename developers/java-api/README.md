@@ -1,5 +1,11 @@
 # ☕️Java API
 
+## How to get the API
+
+You just have to use **maven** or **gradle**, you can get the **API** here: [https://github.com/LoneDev6/ItemsAdder-API\#-packages](https://github.com/LoneDev6/ItemsAdder-API#-packages)
+
+## Description
+
 ItemsAdder includes an easy to use API for Java developers.  
 To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.
 
