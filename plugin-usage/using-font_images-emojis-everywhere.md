@@ -7,7 +7,6 @@ It's very easy, you will be able to use emojis everywhere! For example in [holog
 **UPDATE ITEMSADDER TO VERSION 2.1.21 OR MORE RECENT**
 
 * Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
-* Downlaoad the [PlaceholderAPI ](https://www.spigotmc.org/resources/holographicextension.18461/)addon
 
 Now you can use font\_images \(emojis\) everywhere in other plugins easily! \(they must support PlaceholderAPI\).  
 This is the code: `%img_NAME%` instead of NAME write the font\_image name.  

@@ -6,7 +6,7 @@
 
 Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
 Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
-Downlaoad the [PlaceholderAPI ](https://www.spigotmc.org/resources/holographicextension.18461/)addon  
+Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)  
 
 
 Now you can use font\_images \(emojis\) inside holograms texts and everywhere in other plugins easily! \(they must support PlaceholderAPI\).  
