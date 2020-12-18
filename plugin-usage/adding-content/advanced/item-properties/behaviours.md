@@ -21,6 +21,7 @@ These **behaviours** are already included in the plugin and will allow you to ad
 # For example black_fishing_rod and red_fishing_rod
 block_trade_machine:
   title: "Your title"
+  permission: "mypermission.trade.example" # <--- this is optional
   gui_texture: ###THIS IS OPTIONAL, use it only to retexture the GUI
     left: customization_table_left
     right: customization_table_right
