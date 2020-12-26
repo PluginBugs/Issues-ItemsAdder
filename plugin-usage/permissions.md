@@ -15,7 +15,7 @@
     * `ia.user.ia.PERMISSION` \(如果不想区分，可以给 ia.user.ia.\*\)
     * 想了解更多关于物品权限[ 请点击这里](adding-content/advanced/item-properties/basic/item-permission.md)
     * `ia.user.iasearchgui` 允许玩家使用 /ia 菜单中的搜索功能
-    * 你也可以为每一个类别设置权限，参见[/ia GUI ](ia.md)
+    * 你也可以为每一个类别设置权限，参见[ /ia GUI](ia.md)
   * 表情 \(font images\)
     * **/iaimage /emoji, /iaemoji, /e** 打开表情菜单 （通过书的形式展示所有的表情和字体）
       * `ia.user.image.gui`
