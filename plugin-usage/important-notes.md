@@ -3,7 +3,7 @@
 ## Mipmap 问题 \(和材质大小相关\)
 
 {% hint style="warning" %}
-如果你的材质图片大小不是偶数 Minecraft 会禁用 mipmap 这一功能。
+如果你的材质图片大小不是偶数，Minecraft 会禁用 mipmap 功能。
 
 ### 点击下方访问更多相关信息：
 
