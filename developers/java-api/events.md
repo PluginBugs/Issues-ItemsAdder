@@ -18,3 +18,9 @@ Event triggered when a player interacts with a custom block
 
 Event triggered when a player breaks a custom block
 
+### CustomEntityDeathEvent
+
+Event triggered when a custom entity dies.
+
+
+
