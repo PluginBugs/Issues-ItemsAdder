@@ -63,6 +63,12 @@ texture.diamond_layer_2=layer_2
 
 For each of the `.properties` files you have to **change** the **1th** line setting **your namespace** instead of "mystuff", the **2nd line** to your **item id** and the **5th line** to the **item type** \(`diamond_leggings` , `diamond_boots` ....\)
 
+Now you should have this view:
+
+![](../../../.gitbook/assets/image%20%2826%29.png)
+
+
+
 ### Step 7
 
 **Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
