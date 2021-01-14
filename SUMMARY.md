@@ -90,6 +90,8 @@
         * [ItemsAdder internal](plugin-usage/adding-content/advanced/mobs/itemsadder-internal.md)
         * [Using MythicMobs](plugin-usage/adding-content/advanced/mobs/using-mythicmobs.md)
       * [Music discs](plugin-usage/adding-content/advanced/music-discs.md)
+    * [⚙️Optifine only features](plugin-usage/adding-content/optifine-only-features/README.md)
+      * [Armor textures](plugin-usage/adding-content/optifine-only-features/armor-textures.md)
   * [Editing /ia menu](plugin-usage/ia.md)
   * [WorldGuard flags](plugin-usage/worldguard-flags.md)
   * [😄Using font\_images/emojis everywhere](plugin-usage/using-font_images-emojis-everywhere.md)
