@@ -49,6 +49,24 @@ This allows you to **stop** the **plugin** from **dropping each** of the **items
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
 
+## Ignore fortune enchant
+
+You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
+
+```yaml
+loots:
+  blocks:
+    ruby_ore:
+      type: itemsadder:ruby_ore
+      items:
+        ruby:
+          item: itemsadder:ruby
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+          ignore_fortune: true # <----- here
+```
+
 ### Other types of loots
 
 As I said before there are other types of loots: mobs and fishing.  
