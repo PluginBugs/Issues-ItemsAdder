@@ -1,10 +1,10 @@
-# 📹Video tutorials by users
+# 📹用户创建的视频教程
 
-## Beginners
+## 初学者
 
 {% embed url="https://www.youtube.com/watch?v=GKGnlF4zZVg" %}
 
-## Mid-advanced users
+## 进阶方法
 
 {% embed url="https://www.youtube.com/watch?v=unhHU52Dt\_8" %}
 
