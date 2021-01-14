@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+描述： 本网站将帮助你使用 ItemsAdder 来配置和创建你自定义的物品
 ---
 
-# 👋🏻Welcome
+# 👋🏻欢迎
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
