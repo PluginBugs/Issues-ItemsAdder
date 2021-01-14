@@ -1,43 +1,43 @@
-# ⚙️First install
+# ⚙️首次使用
 
-## Video
+## 视频教程
 
 {% embed url="https://youtu.be/GKGnlF4zZVg" %}
 
-## Step 1
+## 步骤 1
 
-You should do this first configuration on your test server on your PC to avoid mistakes and too many restarts.. players don't like when server is down ;\) You can upload files to your real server after you finished here.
+为防止对正在运行服务器产生一些不可预料的BUG，这里建议你在测试服务器上配置完后再移动到生产环境中。
 
 {% hint style="danger" %}
-If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder** folder to **ItemsAdder\_backup**
+如果你已经有了旧版本的 ItemsAdder （v1.0） 那么请先将目录 **plugins/ItemsAdder** 移动到 **ItemsAdder\_backup**
 {% endhint %}
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
-* install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
-* stop server
+* 安装 [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* 安装 [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
+* 安装 [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* 将 **ItemsAdder.jar** 放到你的服务端插件目录中
+* 开启服务器
+* 让 ItemsAdder 首先完成**初始化** （国内用户尝试通过魔法上网来让ItemsAdder下载好默认的材质包和物品内容）
+* 停止服务器
 
-## Step 2
+## 步骤 2
 
-* join the server and execute the command `/iazip` when the plugin is fully loaded
-* open plugins\ItemsAdder\config.yml
-* follow this tutorial:
+* 在插件加载完成后进入服务器并执行命令 `/iazip`
+* 打开配置文件 plugins\ItemsAdder\config.yml
+* 按照下面的链接来进行下一步的配置
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
 
 
 
 {% hint style="warning" %}
-Remember to use the command `/iazip` each time you want the plugin to update the file `pack.zip`
+当你想让插件更新资源包 `pack.zip`，请输入指令 `/iazip`
 {% endhint %}
 
-### Optional step
+### 可选步骤
 
 {% hint style="info" %}
-If you only want to make your own items, blocks and other things it's easy!
+如果想制作自定义的物品和方块等其他内容，可尝试访问以下内容。
 
 {% page-ref page="faq/removing-default-stuff.md" %}
 {% endhint %}
