@@ -1,12 +1,12 @@
-# ❤️Donation - Support my work
+# ❤️捐赠来支持我的更新
 
-## Voluntary donation page
+## 自愿充电支持网址
 
-## &gt;&gt; [Press here to express me your love](https://paypal.me/lonedevgift) &lt;&lt;
+## &gt;&gt; [点击这里支持作者](https://paypal.me/lonedevgift) &lt;&lt;
 
 {% hint style="success" %}
-By pressing the button you agree to be making a free donation to me as a private individual and not as a VAT number holder. The transaction will therefore not be attributable to any service provided by me as a VAT number holder, it will be considered a voluntary gift.
+点击这个按钮表明你自愿接受向作者提供资金上的支持，所以不会向您提供发票等凭证。
 {% endhint %}
 
-Thanks a lot to everyone my friends, every small amount helps me continuing working on my projects❤️
+感谢所有支持我插件的小伙伴们！❤️
 
