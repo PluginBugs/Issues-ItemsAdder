@@ -2,7 +2,7 @@
 
 ## Read here
 
-{% page-ref page="../plugin-doesnt-work/resourcepack-not-loading.md" %}
+{% page-ref page="../resourcepack-not-loading.md" %}
 
 
 
