@@ -29,9 +29,7 @@
     * [Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
   * [☠️Some users crash \(old\)](faq/some-users-crash.md)
-* [➡️Updating from 1.0](updating-from-1.0/README.md)
-  * [Convert old files to v2](updating-from-1.0/convert-old-files-to-v2.md)
-  * [Convert old items/blocks ingame](updating-from-1.0/convert-old-items-ingame.md)
+* [➕Addons/resources](addons-resources.md)
 * [📄Files editor](files-editor.md)
 * [📖Plugin usage](plugin-usage/README.md)
   * [👌🏻Permissions](plugin-usage/permissions.md)
@@ -101,6 +99,9 @@
   * [🐞Report a bug](support/report-a-bug.md)
   * [📕Ask for help](support/ask-for-help.md)
 * [📹Video tutorials by users](video-tutorials-by-users.md)
+* [➡️Updating from 1.0](updating-from-1.0/README.md)
+  * [Convert old files to v2](updating-from-1.0/convert-old-files-to-v2.md)
+  * [Convert old items/blocks ingame](updating-from-1.0/convert-old-items-ingame.md)
 
 ## Developers
 
@@ -133,6 +134,5 @@
     * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
     * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
-* [➕Addons/resources](addons-resources.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
