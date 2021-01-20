@@ -1,11 +1,15 @@
-# Java API
+# ☕️Java API
+
+## How to get the API
+
+You just have to use **maven** or **gradle**, you can get the **API** here: [https://github.com/LoneDev6/ItemsAdder-API\#-packages](https://github.com/LoneDev6/ItemsAdder-API#-packages)
+
+## Description
 
 ItemsAdder includes an easy to use API for Java developers.  
 To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.
 
-{% hint style="danger" %}
-Most of this API down here will be rewritten, I won't delete the old API to maintain backwards compatibility, but keep in mind that you'd probably prefer the new API which will be more modular and easy to use.
-{% endhint %}
+## Old API:
 
 ```java
 //check if itemsadder finished loading its items and if they are available
@@ -23,6 +27,9 @@ public static ItemStack getCustomItem(String nameInConfig)
 //(obtain it with getCustomItem)
 public static void placeCustomBlock(Location location, ItemStack customBlock)
 public static void placeCustomBlock(Location location, ItemStack customBlock, boolean lightweight)
+
+//get custom block loots
+public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
 
 //Check if a block in the world is a custom block made with ItemsAdder
 public static boolean isCustomBlock(Block block)

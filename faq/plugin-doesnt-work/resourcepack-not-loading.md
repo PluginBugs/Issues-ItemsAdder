@@ -1,4 +1,4 @@
-# Resourcepack not loading
+# 📷Resourcepack not loading
 
 ## Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
@@ -9,3 +9,6 @@
 * Be sure the port is opened if you use self-host.
 * Be sure you're **NOT** using my `pack_21521367.zip` file as base for your pack.  You **MUST** use the new generated `pack.zip` file. Read [tutorial here](../../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
 
+{% hint style="danger" %}
+Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+{% endhint %}

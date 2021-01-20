@@ -1,2 +1,2 @@
-# Errors
+# ⛔️Errors
 

@@ -1,6 +1,6 @@
-# Permissions
+# 👌🏻权限
 
-* Users
+* 玩家
 
   * /ia
     * `ia.user.ia`
@@ -8,57 +8,71 @@
     * `ia.user.iarecipe`
   * /iatexture
     * `ia.user.iatexture`
-  * crafting
-    * `ia.user.craft.PERMISSION` \(or to give all crafting permissions just use ia.user.craft.\*\)
-    * for more info about item permissions please[ read this](adding-content/item-properties/basic/item-permission.md)
-  * see item in /ia menu
-    * `ia.user.ia.PERMISSION` \(or to give all /ia permissions just use ia.user.ia.\*\)
-    * for more info about item permissions please[ read this](adding-content/item-properties/basic/item-permission.md)
-    * `ia.user.iasearchgui` for the search GUI in /ia menu
-    * You can also set a permission per category, please check [/ia GUI ](ia.md)page
-  * emoji \(font images\)
-    * **/iaimage /emoji, /iaemoji, /e** book GUI \(shows a book with the list of emojis/font images\)
+  * 合成
+    * `ia.user.craft.PERMISSION` \(如果不想区分，可以给 ia.user.craft.\*\)
+    * 想了解更多关于物品权限[ 请点击这里](adding-content/advanced/item-properties/basic/item-permission.md)
+  * 设置 /ia 菜单中内容是否可见
+    * `ia.user.ia.PERMISSION` \(如果不想区分，可以给 ia.user.ia.\*\)
+    * 想了解更多关于物品权限[ 请点击这里](adding-content/advanced/item-properties/basic/item-permission.md)
+    * `ia.user.iasearchgui` 允许玩家使用 /ia 菜单中的搜索功能
+    * 你也可以为每一个类别设置权限，参见[ /ia GUI](ia.md)
+  * 表情 \(font images\)
+    * **/iaimage /emoji, /iaemoji, /e** 打开表情菜单 （通过书的形式展示所有的表情和字体）
       * `ia.user.image.gui`
-    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(shows a tab list with emojis based on searched term\)
+    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** （允许使用tab补全）
       * `ia.user.image.hints`
-    * Use emojis in chat
+    * 允许聊天中使用表情
       * `ia.user.image.chat`
-    * Use emojis in commands
+    * 允许指令中使用表情
       * `ia.user.image.command`
-    * Use emojis in signs
+    * 允许告示牌中使用表情
       * `ia.user.image.sign`
-    * Use emojis in books
+    * 允许书本中使用表情
       * `ia.user.image.book`
-    * Use emojis in anvil rename field
+    * 允许铁砧中使用表情
       * `ia.user.image.anvil`
-    * Permission to use an emoji
+    * 允许聊使用表情
       * `ia.user.image.use.<font image name>`
-      * Example: `ia.user.image.use.heart`
+      * 例如： `ia.user.image.use.heart`
 
   ​
 
-* Admin
+* 管理
   * /iaget
     * `ia.admin.iaget`
   * /iagive
     * `ia.admin.iagive`
+  * /iadrop
+    * `ia.admin.iadrop`
+  * /iaremove
+    * `ia.admin.iaremove`
   * /iatag
     * `ia.admin.iatag`
   * /iareload
     * `ia.admin.iareload`
-  * /iablock \(get info about block you're looking at\)
+  * /iablock （获取你正在看的方块的信息）
     * `ia.admin.iablock`
   * /iadurability
     * ia.admin.iadurability
-  * Edit permission \(edit button in /ia\)
+  * 编辑权限 （/ia 中的编辑按钮）
     * `ia.admin.edit`
-  * /iaplayerstat write \(writea player custom stat\)
+  * /iaplayerstat write （设置玩家的特定信息）
     * `ia.admin.iaplayerstat.write`
-  * /iaplayersta read \(read a player custom stat\)
+  * /iaplayersta read （读一个玩家的特定信息）
     * `ia.admin.iaplayerstat.read`
-* Other:
-  * Bypass kick on refuse resourcepack
+  * /iainfo （获取插件相关信息）
+    * `ia.admin.iainfo`
+  * /iakill &lt;mob\|all&gt; （杀死所有自定义怪物）
+    * `ia.admin.iakill`
+  * /iasummon &lt;mob&gt; \[amount\]
+    * `ia.admin.iasummon`
+  * /iaspawntree &lt;tree&gt;
+    * `ia.admin.iaspawntree`
+  * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
+    * `ia.admin.iatotemanimation`
+* 其他
+  * 无视拒绝资源包被踢出
     * `ia.resourcepack.bypasskick`
-  * Bypass player placed blocks can't drop loot
+  * 无视玩家放置的方块不掉落物品
     * `ia.admin.bypassblockplaceloot`
 

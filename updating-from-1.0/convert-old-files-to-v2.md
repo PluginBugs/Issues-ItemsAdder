@@ -56,17 +56,6 @@ Do this operation only on a local test server on your PC so you won't make mista
 
 ## Step 4 - Prepare new ItemsAdder 2.0
 
-{% hint style="danger" %}
-* Please make sure you **DELETED the old ItemsAdder.jar**
-* If you have the OLD ItemsAdder folder in plugins please **RENAME** IT TO **ItemsAdder\_backup** or **delete** it if you already have backups.
-* **Download** ItemsAdder 2.0 and put it in your plugins folder
-* **Start** server
-* Wait ItemsAdder 2.0 to finish creating its files
-* **Stop** the server
-* If you get any error please read it and check if you did anything wrong \(missing dependency, wrong Spigot version....\) and retry this step.
-* \(IGNORE if you get error about the resourcepack URL, it's normal as you will configure it later\)
-{% endhint %}
-
 {% hint style="info" %}
 I**f you don't care and don't want to get my custom items and you just want to create your own items:** 
 
@@ -100,12 +89,26 @@ To start the conversion:
 
 * start the server
 * wait it to finish loading all
-* use command `/iaconvert`
-* WAIT IT TO FINISH
+* use command `/itemsadderconverter:iaconvert`
+* **WAIT** IT TO **FINISH**
 * Check if it throws any error
-* Stop server
+* **Stop** server **only** when it **finished converting**.
+
+## Installing ItemsAdder v2
+
+{% hint style="danger" %}
+* **Stop** the server
+* Please make sure you **DELETED the old ItemsAdder.jar**
+* If you have the OLD ItemsAdder folder in plugins please **RENAME** IT TO **ItemsAdder\_backup** or **delete** it if you already have backups.
+* **Download** ItemsAdder 2.0 and put it in your plugins folder
+* **Start** server
+* Wait ItemsAdder 2.0 to finish creating its files
+* If you get any error please read it and check if you did anything wrong \(missing dependency, wrong Spigot version....\) and retry this step.
+* \(IGNORE if you get error about the resourcepack URL, it's normal as you will configure it later\)
 * Open folder **ItemsAdder\_converted** which is just created
 * copy the two folders `items_packs` and `resource_pack`into new `ItemsAdder` folder \(replace any file if asked\)
+* **Restart** the server
+{% endhint %}
 
 ## Last tasks
 

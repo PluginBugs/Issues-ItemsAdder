@@ -1,4 +1,4 @@
-# Skript API
+# 📓Skript API
 
 ## Examples
 
@@ -25,6 +25,15 @@ command /iaskriptiscustomitem:
       message "it's a custom item"
     else:
       message "it's not a custom item"
+```
+{% endtab %}
+
+{% tab title="FontImage \(emojis, GUIs..\)" %}
+```yaml
+command /emojitest:
+	trigger:
+		set {iconConfirm} to fontimage "twitteremojis:confirm"
+		message "Good: %{iconConfirm}%"
 ```
 {% endtab %}
 {% endtabs %}
