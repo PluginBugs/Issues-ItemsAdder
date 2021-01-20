@@ -1,13 +1,2 @@
----
-description: This website helps you configuring and creating custom items for my plugin
----
-
-# 👋🏻Welcome
-
-* [Patreon](http://patreon.com/lonedev)
-* [YouTube](http://youtube.com/lonedev)
-* [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](https://www.matteodev.it/)
-* [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
-* [Discord](https://discord.gg/4dfnpUK)
-
+# 👋⚠️This is the issues repo, please don't open pull request here.
+# If you want to contribute to the wiki: please use this repo: https://github.com/LoneDev6/Wiki-ItemsAdder
