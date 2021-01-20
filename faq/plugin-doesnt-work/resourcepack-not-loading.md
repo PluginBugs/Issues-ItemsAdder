@@ -1,6 +1,6 @@
 # 📷Resourcepack not loading
 
-#### Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+## Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
 * Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly \(you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`\)
 * Minecraft limits servers resourcepacks size to 50MB, be sure to compress your textures and your music files before creating the zip file.
@@ -12,4 +12,3 @@
 {% hint style="danger" %}
 Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
 {% endhint %}
-
