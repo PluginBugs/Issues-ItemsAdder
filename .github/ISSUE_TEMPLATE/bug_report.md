@@ -24,9 +24,15 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Info (please complete the following information):**
- - Server version: (example: paper 1.15.2)
- - Client version: (example: fabric 1.15.2)
- - Plugin version: (example: 2.0.9 do not write "latest")
+ - Server version: (example: paper 1.16.5)
+ - Client version: (example: fabric 1.16.5)
+
+**Special Info**
+Please do not write "latest"! Tell us the specific plugin version you are using.
+ - ItemsAdder version: (example: 2.4.2)
+ - LightAPI Fork version: (example: 3.5.0)
+ - LoneLibs version: (example: 1.0.13)
+ - ProtocolLib version: (example: 4.6.0)
 
 **Additional context**
 Add any other context about the problem here.
