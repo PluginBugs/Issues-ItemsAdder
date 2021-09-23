@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord server
+    url: https://discord.gg/sMAE3Na
+    about: My personal Discord server
+  - name: ItemsAdder wiki
+    url: http://a.devs.beer/git-wiki-issue
+    about: Official wiki of ItemsAdder
+  - name: ItemsAdder Spigot page
+    url: http://a.devs.beer/git-iaspigot-issue
+    about: Official SpigotMC.org page of ItemsAdder
