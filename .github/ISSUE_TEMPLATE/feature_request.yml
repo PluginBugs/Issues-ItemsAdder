@@ -1,0 +1,58 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Suggestion]: "
+labels: ["Feature request"]
+assignees:
+  - LoneDev6
+body:
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Terms
+      options:
+        - label: "I'm using the very latest version of ItemsAdder and its dependencies."
+          required: true
+        - label: I already searched on this [Github page](https://github.com/PluginBugs/Issues-ItemsAdder/issues) to check if the same suggestion was already reported.
+          required: true
+        - label: I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if the feature is already implemented.
+          required: true
+        - label: I already searched on the **Discord** server to know if anyone already has a solution for this or if the feature was already suggested.
+          required: true
+  - type: input
+    id: discord_tag
+    attributes:
+      label: Discord tag (optional)
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. DiscordTag#0001
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the solution you'd like"
+      placeholder: "A clear and concise description of what you want to happen."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      placeholder: "A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Describe alternatives you've considered"
+      placeholder: "A clear and concise description of any alternative solutions or features you've considered."
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional context"
+      placeholder: "Add any other context or screenshots about the feature request here."
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to fill out this suggestion page!
