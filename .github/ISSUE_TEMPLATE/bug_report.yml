@@ -140,6 +140,14 @@ body:
             at dev.lone.itemsadder.l.k.<clinit>(SourceFile:12) ~[ItemsAdder.jar:?]
             ... 9 more
   - type: textarea
+    id: configuration
+    attributes:
+      label: Configurations
+      description: Please drag and drop here your files.
+      placeholder: |
+        Drag and drop here your config.yml of ItemsAdder, the .yml containing your item and the json model file.
+        If you can use /iaexport to export your namespace and directly provide the zip would be even better.
+  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots/Videos
