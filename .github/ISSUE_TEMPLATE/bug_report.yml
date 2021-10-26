@@ -137,19 +137,73 @@ body:
             at dev.lone.itemsadder.l.k.<clinit>(SourceFile:12) ~[ItemsAdder.jar:?]
             ... 9 more
   - type: textarea
-    id: configuration
+    id: configuration_plugin
     attributes:
-      label: Configurations
-      description: Please drag and drop here your files.
-      placeholder: |
-        Drag and drop here your config.yml of ItemsAdder, the .yml containing your item and the json model file.
-        If you can use /iaexport to export your namespace and directly provide the zip would be even better.
+      label: ItemsAdder config.yml
+      description: Please copy and paste the config.yml file of ItemsAdder (this will be automatically formatted into code).
+      render: shell
+      placeholder: | 
+        metrics: true
+        update-checker: true
+        disable-plugin-loading-messages_DONT_ASK_ME_FOR_SUPPORT_IF_YOU_SET_TRUE__THANKS: false
+        resource-pack:
+          hosting:
+            no-host:
+              enabled: false
+            auto-external-host:
+              enabled: false
+  - type: textarea
+    id: configuration_item
+    attributes:
+      label: Problematic items yml configuration file (optional)
+      description: Please copy and paste the file of your item (this will be automatically formatted into code).
+      render: shell
+      placeholder: | 
+        info:
+          namespace: itemsadder
+        items:
+          ruby_block:
+            display_name: display-name-ruby_block
+            permission: ruby_block
+            resource:
+              material: PAPER
+              generate: true
+              textures:
+              - block/ruby_block.png
+            specific_properties:
+              block:
+                placed_model:
+                  type: REAL_NOTE
+                  break_particles_material: REDSTONE_BLOCK
+                break_tools_whitelist:
+                - PICKAXE
+                - pickaxe
+          crystal_block:
+            display_name: display-name-crystal_block
+            permission: crystal_block
+            resource:
+              material: PAPER
+              generate: true
+              textures:
+              - block/crystal_block.png
+            specific_properties:
+              block:
+                placed_model:
+                  type: REAL_NOTE
+                  break_particles_material: PRISMARINE_BRICKS
+                break_tools_whitelist:
+                - PICKAXE
+                - pickaxe
+  - type: textarea
+    id: configuration_files
+    attributes:
+      label: Other files, you can drag and drop them here to upload. (optional)
+      description: Drag and drop your files here.
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots/Videos
-      description: If applicable, add screenshots to help explain your problem.
-      value: "(you can drag and drop files or paste links)"
+      label: Screenshots/Videos (you can drag and drop files or paste links)
+      description: If applicable, add screenshots to help explain your problem (you can drag and drop files or paste links).
   - type: markdown
     attributes:
       value: |
