@@ -2,6 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Report duplication bugs and exploits
     url: https://github.com/PluginBugs/Issues-ItemsAdder/security/policy
+    about: DO NOT REPORT DUPLICATION BUGS ON GITHUB!
   - name: Discord server
     url: https://discord.gg/sMAE3Na
     about: My personal Discord server
