@@ -137,22 +137,6 @@ body:
             at dev.lone.itemsadder.l.k.<clinit>(SourceFile:12) ~[ItemsAdder.jar:?]
             ... 9 more
   - type: textarea
-    id: configuration_plugin
-    attributes:
-      label: ItemsAdder config.yml
-      description: Please copy and paste the config.yml file of ItemsAdder (this will be automatically formatted into code).
-      render: shell
-      placeholder: | 
-        metrics: true
-        update-checker: true
-        disable-plugin-loading-messages_DONT_ASK_ME_FOR_SUPPORT_IF_YOU_SET_TRUE__THANKS: false
-        resource-pack:
-          hosting:
-            no-host:
-              enabled: false
-            auto-external-host:
-              enabled: false
-  - type: textarea
     id: configuration_item
     attributes:
       label: Problematic items yml configuration file (optional)
