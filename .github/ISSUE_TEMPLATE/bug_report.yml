@@ -9,11 +9,13 @@ body:
       options:
         - label: "I'm using the very latest version of ItemsAdder and its dependencies."
           required: true
+        - label: I am sure this is a bug and it is not caused by a misconfiguration or by another plugin.
+          required: true
         - label: I already searched on this [Github page](https://github.com/PluginBugs/Issues-ItemsAdder/issues) to check if the same issue was already reported.
           required: true
         - label: I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if a solution is already known.
           required: true
-        - label: I already asked on the [forums](https://forum.devs.beer/) if anyone already has a solution for this.
+        - label: I already searched on the [forums](https://forum.devs.beer/) to check if anyone already has a solution for this.
           required: true
   - type: input
     id: discord_tag
