@@ -13,7 +13,7 @@ body:
           required: true
         - label: I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if a solution is already known.
           required: true
-        - label: I already asked on the **#💬ia-community-help** channel on **Discord** to know if anyone already has a solution for the issue.
+        - label: I already asked on the [forums](https://forum.devs.beer/) if anyone already has a solution for this.
           required: true
   - type: input
     id: discord_tag
