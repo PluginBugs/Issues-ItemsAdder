@@ -3,6 +3,9 @@ contact_links:
   - name: Report duplication bugs and exploits
     url: https://github.com/PluginBugs/Issues-ItemsAdder/security/policy
     about: DO NOT REPORT DUPLICATION BUGS ON GITHUB!
+  - name: Forum
+    url: https://forum.devs.beer/
+    about: Official community forum
   - name: Discord server
     url: https://discord.gg/sMAE3Na
     about: My personal Discord server
