@@ -4,8 +4,7 @@
 
 ## Reporting a duplication bug or exploit
 
-To report a duplication bug or an exploit open a ticket on my Discord server (**even if it's not a payment issue**).
+To report a duplication bug or an exploit open a ticket on the forum.
 
-
-![](https://i.imgur.com/FHpyB1k.png)
+https://forum.devs.beer/t/private-duplication-bug
 
