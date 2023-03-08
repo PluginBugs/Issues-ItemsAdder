@@ -90,24 +90,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: lightapi_version
-    attributes:
-      label: LightAPI Version (optional)
-      placeholder: |
-        DO NOT WRITE 'LATEST', run command `/version LightAPI` and paste it here.
-        
-        Example:
-        LightAPI version 2.4.17
-  - type: textarea
-    id: libsdisguises_version
-    attributes:
-      label: LibsDisguises Version (optional)
-      placeholder: |
-        DO NOT WRITE 'LATEST', run command `/version LibsDisguises` and paste it here.
-        
-        Example:
-        LibsDisguises version 2.4.17
-  - type: textarea
     id: full_server_log
     attributes:
       label: FULL server log
