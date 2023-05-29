@@ -6,5 +6,5 @@
 
 To report a duplication bug or an exploit open a ticket on the forum.
 
-https://forum.devs.beer/t/private-duplication-bug
+https://forum.devs.beer/d/17-how-to-report-duplication-bugs
 
