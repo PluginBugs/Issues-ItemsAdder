@@ -89,10 +89,13 @@ body:
         LoneLibs version 2.4.17
     validations:
       required: true
+- type: markdown
+  attributes:
+    value: "Full server log (Upload the log to [mclogs](https://mclo.gs/) to hide private information.)"
   - type: textarea
     id: full_server_log
     attributes:
-      label: Full server log (Upload the log to https://mclo.gs/ to hide private information.)
+      label: Full server log
       placeholder: "Paste it here."      
   - type: textarea
     id: logs
