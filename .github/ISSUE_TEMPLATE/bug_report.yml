@@ -92,8 +92,8 @@ body:
   - type: textarea
     id: full_server_log
     attributes:
-      label: FUll server log
-      placeholder: "Upload the log to https://mclo.gs/ to hide private information."      
+      label: Full server log (Upload the log to https://mclo.gs/ to hide private information.)
+      placeholder: ""      
   - type: textarea
     id: logs
     attributes:
