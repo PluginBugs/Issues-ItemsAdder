@@ -93,7 +93,7 @@ body:
     id: full_server_log
     attributes:
       label: Full server log (Upload the log to https://mclo.gs/ to hide private information.)
-      placeholder: ""      
+      placeholder: "Paste it here."      
   - type: textarea
     id: logs
     attributes:
