@@ -1,7 +1,7 @@
 name: Potential Duplicates
 on:
   issues:
-    types: [opened, edited]
+    types: [opened]
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
           threshold: 0.6
           # Reactions to be add to comment when potential duplicates are detected.
           # Available reactions: "-1", "+1", "confused", "laugh", "heart", "hooray", "rocket", "eyes"
-          reactions: 'confused'
+          reactions: ''
           # Comment to post when potential duplicates are detected.
           comment: >
             Potential duplicates: {{#issues}}
