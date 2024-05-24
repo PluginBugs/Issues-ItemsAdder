@@ -56,6 +56,8 @@ body:
         
         Example:
         This server is running Paper version git-Paper-788 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)"
+    validations:
+      required: true
   - type: textarea
     id: plugin_version
     attributes:
@@ -123,6 +125,8 @@ body:
             at com.comphenix.protocol.reflect.FieldUtils.getField(FieldUtils.java:111) ~[PROTOCOLLIB.jar:?]
             at dev.lone.itemsadder.l.k.<clinit>(SourceFile:12) ~[ItemsAdder.jar:?]
             ... 9 more
+    validations:
+      required: true
   - type: textarea
     id: configuration_item
     attributes:
