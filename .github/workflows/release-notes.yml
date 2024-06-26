@@ -11,4 +11,4 @@ jobs:
       name: milestone release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
-        milestone-title: ${{github.event.milestone.title}}
+        milestone-title: ${{github.event.milestone.number}}
