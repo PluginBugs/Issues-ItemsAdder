@@ -1,16 +1,30 @@
-# Trigger the workflow on milestone events
-on: 
+on:
   milestone:
-    types: [closed]
-name: Milestone Closure
+    type: [closed]
 jobs:
-  create-release-notes:
+  release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Create Release Notes
-      uses: docker://decathlon/release-notes-generator-action:2.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        OUTPUT_FOLDER: .changelogs
-        USE_MILESTONE_TITLE: "true"
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          
+      - name: Build Changelog
+        id: github_release
+        uses: okcredit/changelog-creator-action@{latest-release}
+        with:
+          configuration: "configuration.json"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Print change log
+        run: echo "Generated changelog - ${{ steps.github_release.outputs.changelog }}"
+      - name: Create Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.github_release.outputs.milestone }}
+          release_name: ${{ steps.github_release.outputs.milestone }}
+          body: ${{steps.github_release.outputs.changelog}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
