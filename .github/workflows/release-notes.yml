@@ -12,4 +12,5 @@ jobs:
       uses: Cossey/release-notes-generator-action@v2.1.4
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        OUTPUT_FOLDER: .release_notes
+        OUTPUT_FOLDER: .changelogs
+        USE_MILESTONE_TITLE: "true"
