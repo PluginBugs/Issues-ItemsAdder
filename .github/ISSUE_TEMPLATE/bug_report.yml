@@ -98,6 +98,7 @@ body:
     id: full_server_log
     attributes:
       label: Full server log
+      description: Please copy your latest.log content and share it here, preferably uploaded to a site like https://mclo.gs
       placeholder: "Paste it here."      
   - type: textarea
     id: logs
@@ -125,8 +126,6 @@ body:
             at com.comphenix.protocol.reflect.FieldUtils.getField(FieldUtils.java:111) ~[PROTOCOLLIB.jar:?]
             at dev.lone.itemsadder.l.k.<clinit>(SourceFile:12) ~[ItemsAdder.jar:?]
             ... 9 more
-    validations:
-      required: true
   - type: textarea
     id: configuration_item
     attributes:
