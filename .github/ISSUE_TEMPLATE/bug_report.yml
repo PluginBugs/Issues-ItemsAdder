@@ -2,6 +2,11 @@ name: Bug Report
 description: File a bug report
 labels: ["type: bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## READ AND FOLLOW THE DESCRIPTIONS OF THIS ISSUE TEMPLATE!
+        Not doing so may result in your issue being closed without warning. Take your time and properly fill out everything as requested.
   - type: checkboxes
     id: searched
     attributes:
@@ -9,20 +14,22 @@ body:
       options:
         - label: "I'm using the very latest version of ItemsAdder and its dependencies."
           required: true
-        - label: I am sure this is a bug and it is not caused by a misconfiguration or by another plugin.
+        - label: "I am sure this is a bug and it is not caused by a misconfiguration or by another plugin."
           required: true
-        - label: I already searched on this [Github page](https://github.com/PluginBugs/Issues-ItemsAdder/issues) to check if the same issue was already reported.
+        - label: "I've looked for already existing issues on the [Issue Tracker](https://github.com/PluginBugs/Issues-ItemsAdder/issues) and haven't found any."
           required: true
-        - label: I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if a solution is already known.
+        - label: "I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if a solution is already known."
           required: true
-        - label: I already searched on the [forums](https://forum.devs.beer/) to check if anyone already has a solution for this.
+        - label: "I already searched on the [forums](https://forum.devs.beer/) to check if anyone already has a solution for this."
+          required: true
+        - label: "I tested this with just ItemsAdder and its dependencies and with a vanilla client of the same version as the Server."
           required: true
   - type: input
     id: discord_tag
     attributes:
-      label: Discord tag (optional)
+      label: Discord Username (optional)
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. DiscordTag#0001
+      placeholder: ex. discorduser1234
     validations:
       required: false
   - type: textarea
@@ -30,7 +37,6 @@ body:
     attributes:
       label: What happened?
       description: A clear and concise description of what the bug is.
-      placeholder: Tell us what you see!
       placeholder: "Example: I can't interact with custom furniture if I'm in my own claim"
     validations:
       required: true
@@ -50,7 +56,7 @@ body:
     id: server_version
     attributes:
       label: Server version
-      description: "(run `/version` command and paste it here)"
+      description: "run `/version` command and paste it here"
       placeholder: |
         Run `/version` command and paste it here
         
@@ -62,8 +68,10 @@ body:
     id: plugin_version
     attributes:
       label: ItemsAdder Version
+      description: "Execute `/version ItemsAdder` and paste the output here."
       placeholder: |
-        DO NOT WRITE 'LATEST', run command `/version ItemsAdder` and paste it here.
+        Run `/version ItemsAdder` in your server and paste the output here.
+        DO NOT PUT "LATEST". DOING SO WILL GET YOUR ISSUE CLOSED!
         
         Example:
         ItemsAdder version 2.4.17
@@ -73,8 +81,10 @@ body:
     id: protocollib_version
     attributes:
       label: ProtocolLib Version
+      description: "Execute `/version ProtocolLib` and paste the output here."
       placeholder: |
-        DO NOT WRITE 'LATEST', run command `/version ProtocolLib` and paste it here.
+        Run `/version ProtocolLib` in your server and paste the output here.
+        DO NOT PUT "LATEST". DOING SO WILL GET YOUR ISSUE CLOSED!
         
         Example:
         ProtocolLib version 2.4.17
@@ -84,27 +94,27 @@ body:
     id: lonelibs_version
     attributes:
       label: LoneLibs Version
+      description: "Execute `/version LoneLibs` and paste the output here."
       placeholder: |
-        DO NOT WRITE 'LATEST', run command `/version LoneLibs` and paste it here.
+        Run `/version LoneLibs` in your server and paste the output here.
+        DO NOT PUT "LATEST". DOING SO WILL GET YOUR ISSUE CLOSED!
         
         Example:
         LoneLibs version 2.4.17
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "Full server log (Upload the log to [mclogs](https://mclo.gs/) to hide private information.)"
-  - type: textarea
+  - type: input
     id: full_server_log
     attributes:
-      label: Full server log
-      description: Please copy your latest.log content and share it here, preferably uploaded to a site like https://mclo.gs
-      placeholder: "Paste it here."      
+      description: |-
+        Upload your latest.log file to [mclo.gs](https://mclo.gs) and share the generated URL here.
+        Sensitive info such as IPs will automatically be censored for your privacy.
+      placeholder: "https://mclo.gs/..."  
   - type: textarea
-    id: logs
+    id: errors
     attributes:
       label: Error (optional)
-      description: Please copy and paste any error you got (this will be automatically formatted into code).
+      description: "Paste any errors you have here. Text pasted here will be formatted as code."
       render: shell
       placeholder: |
         [19:26:04] [Craft Scheduler Thread - 18 - ItemsAdder/WARN]: [ItemsAdder] Plugin ItemsAdder v2.4.16 generated an exception while executing task 22801
@@ -130,8 +140,8 @@ body:
     id: configuration_item
     attributes:
       label: Problematic items yml configuration file (optional)
-      description: Please copy and paste the file of your item (this will be automatically formatted into code).
-      render: shell
+      description: "Copy and paste the content of any YAML file from ItemsAdder that causes issues. Code pasted here will automatically be formatted as YAML."
+      render: yaml
       placeholder: | 
         info:
           namespace: itemsadder
@@ -172,12 +182,12 @@ body:
     id: configuration_files
     attributes:
       label: Other files, you can drag and drop them here to upload. (optional)
-      description: Drag and drop your files here.
+      description: "Drag and drop your files here."
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots/Videos (you can drag and drop files or paste links)
-      description: If applicable, add screenshots to help explain your problem (you can drag and drop files or paste links).
+      description: "If applicable, add screenshots to help explain your problem (you can drag and drop files or paste links)."
   - type: markdown
     attributes:
       value: |
