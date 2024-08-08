@@ -106,10 +106,13 @@ body:
   - type: input
     id: full_server_log
     attributes:
+      label: Full Server Log
       description: |-
         Upload your latest.log file to [mclo.gs](https://mclo.gs) and share the generated URL here.
         Sensitive info such as IPs will automatically be censored for your privacy.
       placeholder: "https://mclo.gs/..."  
+    validations:
+      required: true
   - type: textarea
     id: errors
     attributes:
