@@ -1,0 +1,29 @@
+name: Close duplicate issue
+on:
+  issue_comment:
+    types: [created]
+
+concurrency:
+  group: ${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  close_issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    if: ${{ !github.event.issue.pull_request && contains(github.event.comment.body, 'Duplicate of') && (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') }}
+    steps:
+      - name: Apply Labels
+        run: 'gh issue edit "$NUMBER" --add-label "type: duplicate" --remove-label "type: bug"'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+      - name: Close issue
+        run: 'gh issue close "$NUMBER" --reason "not planned"'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+        
