@@ -1,8 +1,13 @@
-name: Close duplicate issue
+# This is a GitHub Action Workflow designed to execute specific actions based on specific comments.
+# As of right now is this Workflow supporting the following:
+#   - Close issues and label them as "type: duplicate" when owner/member/collaborator writes "Duplicate of"
+name: Issue Comment Actions
 on:
   issue_comment:
     types: [created]
 
+# Ensures that only one action runs per issue, preventing possible race-conditions or smth.
+# Any other action for the same issue should be put in queue, waiting for the active one to finish.
 concurrency:
   group: ${{ github.event.issue.number }}
   cancel-in-progress: false
@@ -12,14 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+    # Check that the comment is on an issue, contains "Duplicate of" and that author is owner, member or collaborator.
     if: ${{ !github.event.issue.pull_request && contains(github.event.comment.body, 'Duplicate of') && (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') }}
     steps:
-      - name: Apply Labels
+      # Add "type: duplicate" label and remove "type: bug" label.
+      - name: Update Issue Labels
         run: 'gh issue edit "$NUMBER" --add-label "type: duplicate" --remove-label "type: bug"'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
+      # Close issue as "Not Planned"
       - name: Close issue
         run: 'gh issue close "$NUMBER" --reason "not planned"'
         env:
