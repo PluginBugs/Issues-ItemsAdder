@@ -18,7 +18,12 @@ jobs:
     permissions:
       issues: write
     # Check that the comment is on an issue, contains "Duplicate of" and that author is owner, member or collaborator.
-    if: ${{ !github.event.issue.pull_request && contains(github.event.comment.body, 'Duplicate of') && (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') }}
+    if: |-
+      ${{
+        !github.event.issue.pull_request &&
+        contains(github.event.comment.body, 'Duplicate of') &&
+        (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER')
+      }}
     steps:
       # Add "type: duplicate" label and remove "type: bug" label.
       - name: Update Issue Labels
