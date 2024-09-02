@@ -25,9 +25,9 @@ jobs:
         (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER')
       }}
     steps:
-      # Add "type: duplicate" label and remove "type: bug" label.
+      # Add "type: duplicate" label
       - name: Update Issue Labels
-        run: 'gh issue edit "$NUMBER" --add-label "type: duplicate" --remove-label "type: bug"'
+        run: 'gh issue edit "$NUMBER" --add-label "type: duplicate"'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
