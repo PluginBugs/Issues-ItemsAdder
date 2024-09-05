@@ -48,9 +48,7 @@ jobs:
             <!-- Bot comment Start -->
             ----
             
-            Please always check the issue tracker for pre-existing issues (including closed ones) before creating a new issue. Thanks!
-
-            > [!NOTE]  
-            > Comment edited by GitHub Actions.
+            Your issue has been marked as **duplicate**!
+            Please always check the issue tracker first for any existing issues of the same problem/suggestion (including closed ones!) before creating your own. Thank you.
           edit-mode: append
         
