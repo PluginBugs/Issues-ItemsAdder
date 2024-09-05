@@ -21,6 +21,7 @@ jobs:
     if: |-
       ${{
         !github.event.issue.pull_request &&
+        github.event.issue.state == 'open' &&
         contains(github.event.comment.body, 'Duplicate of') &&
         (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER')
       }}
