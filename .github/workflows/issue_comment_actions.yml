@@ -27,7 +27,7 @@ jobs:
     steps:
       # Add "type: duplicate" label
       - name: Update Issue Labels
-        run: 'gh issue edit "$NUMBER" --add-label "type: duplicate"'
+        run: 'gh issue edit $NUMBER --add-label "type: duplicate" --remove-label "$(gh issue view $NUMBER --json labels --jq ''.labels | map(.name) | join(",")'')"'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
