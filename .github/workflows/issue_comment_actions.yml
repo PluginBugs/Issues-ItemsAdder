@@ -45,7 +45,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           comment-id: ${{ github.event.comment.id }}
           body: |-
-            
+            <!-- Bot comment Start -->
             ----
             
             Please always check the issue tracker for pre-existing issues (including closed ones) before creating a new issue. Thanks!
