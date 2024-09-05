@@ -43,7 +43,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.issue.number }}
-          coment-id: ${{ github.event.comment.id }}
+          comment-id: ${{ github.event.comment.id }}
           body: |-
             ----
             
