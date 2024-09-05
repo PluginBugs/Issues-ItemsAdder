@@ -39,4 +39,17 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
+      - name: Update Comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          coment-id: ${{ github.event.comment.id }}
+          body: |-
+            ----
+            
+            Please always check the issue tracker for pre-existing issues (including closed ones) before creating a new issue. Thanks!
+
+            > [!NOTE]  
+            > Comment edited by GitHub Actions.
+          edit-mode: append
         
