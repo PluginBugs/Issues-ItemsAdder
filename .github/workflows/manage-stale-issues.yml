@@ -1,0 +1,46 @@
+name: 'Lock Threads'
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+  discussions: write
+
+concurrency:
+  group: lock-threads
+
+jobs:
+  label-inactive-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - name: "Label inactive Issues"
+        uses: actions/stale@v8
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-label: "verdict: inactive"
+          days-before-stale: 90
+          days-before-pr-stale: -1 # Ignore Pull requests
+          stale-issue-message: |-
+            Your issue has been marked as **inactive** for not receiving any further input.
+            Should this issue still be relevant, provide necessary info such as latest logs to avoid it from being closed.
+
+            > [!CAUTION]
+            > **Do not post messages to "bump" the issue and keep it active, as doing so will get it closed and locked!**
+          close-issue-message: |-
+            Your issue has not received any updates for a week since being marked as inactive.
+            It has therefore been **closed as not planned.**
+
+            If you believe this issue to still be relevant, let us know and we may re-open it.
+  #lock-issue:
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - uses: dessant/lock-threads@v5
+  #      with:
+  #        issue-inactive-days: 30
+  #        log-output: true
