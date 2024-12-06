@@ -1,0 +1,27 @@
+name: 'Inactive Threads'
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+concurrency:
+  group: lock-threads
+
+jobs:
+  label-inactive-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - name: "Label inactive Issues"
+        uses: actions/stale@v8
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-label: "status: inactive"
+          days-before-stale: 90
+          days-before-close: -1
+          days-before-pr-stale: -1
