@@ -7,6 +7,8 @@ body:
       value: |
         ## READ AND FOLLOW THE DESCRIPTIONS OF THIS ISSUE TEMPLATE!
         Not doing so may result in your issue being closed without warning. Take your time and properly fill out everything as requested.
+
+        Please also see [#4187](https://github.com/PluginBugs/Issues-ItemsAdder/issues/4187) on how to properly report issues with ItemsAdder.
   - type: checkboxes
     id: searched
     attributes:
@@ -20,9 +22,9 @@ body:
           required: true
         - label: "I already searched on the [plugin wiki](https://itemsadder.devs.beer/) to know if a solution is already known."
           required: true
-        - label: "I already searched on the [forums](https://forum.devs.beer/) to check if anyone already has a solution for this."
+        - label: "I searched the `#itemsadder-forum` channel on Discord for similar issues."
           required: true
-        - label: "I tested this with just ItemsAdder and its dependencies and with a vanilla client of the same version as the Server."
+        - label: "I tested that this issue persists on a **bare-minimum Server** as described in [#4187](https://github.com/PluginBugs/Issues-ItemsAdder/issues/4187)."
           required: true
   - type: input
     id: discord_tag
@@ -194,4 +196,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Thanks for taking the time to fill out this bug report!
+        ## Final Notes
+        Support is provided "as is" without any guarantee of accuracy, success or similar.
+        
+        Neither the Plugin Developer nor any contributors are obligated to reply to your issue and your issue may be closed at any given moment, even unnanounced.
+        The Plugin Developer and Contributors have the right to refuse support for any reason given.
