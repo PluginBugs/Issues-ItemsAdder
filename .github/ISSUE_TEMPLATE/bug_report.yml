@@ -96,15 +96,18 @@ body:
     id: lonelibs_version
     attributes:
       label: LoneLibs Version
-      description: "Execute `/version LoneLibs` and paste the output here."
+      description: |-
+        You can leave this field empty if you're using 4.0.9 or newer of ItemsAdder.
+        For any versions before, the output of `/version LoneLibs` is required!
       placeholder: |
         Run `/version LoneLibs` in your server and paste the output here.
         DO NOT PUT "LATEST". DOING SO WILL GET YOUR ISSUE CLOSED!
+        ONLY REQUIRED FOR ITEMSADDER 4.0.8 AND OLDER!
         
         Example:
         LoneLibs version 2.4.17
     validations:
-      required: true
+      required: false
   - type: input
     id: full_server_log
     attributes:
