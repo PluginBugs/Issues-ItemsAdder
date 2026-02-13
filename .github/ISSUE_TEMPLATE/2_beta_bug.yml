@@ -1,4 +1,4 @@
-name: Beta Version Bug Report
+name: BETA VERSION Bug Report
 description: File a bug report reproducible only on beta versions
 labels: ["type: bug", "env: BETA"]
 body:
